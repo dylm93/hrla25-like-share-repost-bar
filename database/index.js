@@ -1,14 +1,9 @@
-const Sequelize = require ('sequelize');
-const mysql = require ('mysql');
+const mongoose = require ('mongoose');
+mongoose.connect('mongodb://localhost/songs');
 
-const connection = new Sequelize ('songs', 'root', '', {
-    host: 'localhost',
-    dialect: 'mysql'
-})
+const connection = mongoose.connection;
 
-connection
-    .authenticate()
-    .then( ()=> console.log('connected to mysql db'))
-    .catch(err => console.error(err))
+connection.on('error', console.error.bind(console, 'connection error'))
+connection.once('open', () => console.log('connected to mongodb'))
 
 module.exports = connection;

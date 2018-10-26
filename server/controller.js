@@ -2,15 +2,30 @@ const { Songs } = require ('../database/models');
 
 const controller = {
     get: (req, res) => {
-        Songs.findAll({})
-            .then(data => res.status(200).send(data))
-            .catch(err => console.error(err))
+        Songs.find({}, (err, songs) => {
+            if (err) {
+                console.error(err)
+            } else {
+                res.status(200).send(songs)
+            }
+        })
     },
     post: (req, res) => {
-        const { name } = req.body
-        Songs.create({name: name})
-            .then(data => res.status(201).send(data))
-            .catch(err => console.error(err))
+       const { songName,
+                artist,
+                likeCount,
+                playsCount,
+                repostCount
+            } = req.body;
+        
+        new Songs (req.body)
+            .save((err, newSong) => {
+                if (err) {
+                    console.error(err)
+                } else {
+                    res.status(201).send(newSong)
+                }
+            })
     },
     update: (req, res) => {
         const {name, newName} = req.body;

@@ -1,24 +1,19 @@
 const connection = require ('./');
-const Sequelize = require ('sequelize');
+const mongoose = require ('mongoose');
 
-const Songs = connection.define (
-'Songs',
+const songsSchema = mongoose.Schema (
  {
-    id: {type: Sequelize.INTEGER, primaryKey: true, allowNull: false, autoIncrement: true},
-    songName: {type: Sequelize.STRING},
-    artist: {type: Sequelize.STRING},
-    likeCount: {type: Sequelize.STRING},
-    playsCount: {type: Sequelize.STRING},
-    repostCount: {type: Sequelize.STRING}
+    songName: {type: String},
+    artist: {type: String},
+    likeCount: {type: Number},
+    playsCount: {type: Number},
+    repostCount: {type: Number}
 },
 {
     timestamps: false
 }
 )
 
-connection
-    .sync()
-    .then(()=> console.log ('synced to mysql db'))
-    .catch(err => console.error(err))
+const Songs = mongoose.model('Songs', songsSchema)
 
 module.exports = { Songs };

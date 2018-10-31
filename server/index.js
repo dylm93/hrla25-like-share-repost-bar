@@ -13,6 +13,7 @@ server.use(bodyParser.json());
 server.use(bodyParser.urlencoded({extended: true}));
 server.use(express.static(path.join(__dirname, '../client/dist')))
 
+
 server.use('/', router);
 
 server.listen(port, () => console.log(`server is listening on port ${port}`))

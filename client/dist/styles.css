@@ -18,15 +18,16 @@
 }
 
 .like-button, .repost-button  {
-    border-radius: 5px
+    border-radius: 5px;
+    font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Verdana,Tahoma,sans-serif;
 }
 
 .share-button {
     position: relative;
     border-radius: 5px;
     left: 62px;
-    top: -22px
-
+    top: -22px;
+    font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Verdana,Tahoma,sans-serif;
 }
 
 .more-button {
@@ -35,7 +36,8 @@
     position: relative;
     left: 98px;
     top: -44px;
-    text-align: center
+    text-align: center;
+    font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Verdana,Tahoma,sans-serif;
 }
 
 
@@ -110,7 +112,7 @@
     display: inline-block;
     padding: 10px;
     font-size: 30px;
-    font-family: Arial;
+    font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Verdana,Tahoma,sans-serif;
 }
 
 

@@ -12,33 +12,15 @@ class MoreMenu extends Component {
     
     this.showMenu = this.showMenu.bind(this);
     this.closeMenu = this.closeMenu.bind(this);
-    // this.toggleMoreClass = this.toggleMoreClass.bind(this)
   }
 
-//   toggleMoreClass() {
-//     this.setState({
-//         moreClicked: !(this.state.moreClicked)
-//     })
 
-
-//     if (this.state.moreClicked === true) {
-//         this.setState({
-//             bgMoreColor: 'orange',
-            
-//         })
-//     } else {
-//         this.setState({
-//             bgMoreColor: 'white',
-        
-//         })
-//     }
-// }
   
   showMenu(event) {
     event.preventDefault();
     this.setState({ 
         showMenu: true,
-        bgMoreColor: 'orange'
+        bgMoreColor: '#ff5500'
     }, () => {
       document.addEventListener('click', this.closeMenu);
     });
@@ -60,22 +42,22 @@ class MoreMenu extends Component {
     return (
       <div>
           <span>
-        <button style= {{backgroundColor:this.state.bgMoreColor}} onClick={this.showMenu}>
-          ...More
+        <button className = 'more-button' style= {{backgroundColor:this.state.bgMoreColor}} onClick={this.showMenu}>
+          ...
         </button>
         
         {
           this.state.showMenu
             ? (
-              <div
+              <div 
                 className="menu"
                 ref={(element) => {
                   this.dropdownMenu = element;
                 }}
               >
-                <button> Add to Next up </button>
-                <button> Add to playlist </button>
-                <button> Station </button>
+                <button className = 'nextUp'> Add to Next up </button>
+                <button className = 'addToPlaylist'> Add to playlist </button>
+                <button className = 'station'> Station </button>
               </div>
             )
             : (

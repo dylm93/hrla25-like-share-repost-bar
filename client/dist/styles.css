@@ -1,0 +1,142 @@
+
+
+.container {
+    display: inline-block;  
+    position: relative;
+    left: 150px; 
+}
+
+.counts {
+    display: inline-block;  
+    position: absolute;
+    left: 300px
+}
+
+.menu {
+    display: block;
+    text-align: center
+}
+
+.like-button, .repost-button  {
+    border-radius: 5px
+}
+
+.share-button {
+    position: relative;
+    border-radius: 5px;
+    left: 62px;
+    top: -22px
+
+}
+
+.more-button {
+    border-radius: 5px;
+    height: 22px;
+    position: relative;
+    left: 98px;
+    top: -44px;
+    text-align: center
+}
+
+
+
+
+.share-title {
+    font-size: 18px;
+    padding-left: 20px;
+    position: absolute;
+    bottom: 85px;
+}
+
+.soundcloud-link {
+    padding-left: 20px;
+    position:absolute;
+    bottom: 20px;
+}
+
+.input {
+    width: 450px;
+    height: 15px;
+}
+
+.twitter, .facebook, .pinterest, .googleplus, .email, .tumblr {
+    
+    height: 30px;
+    width: 30px; 
+    padding: 5px;
+}
+
+.share-element {
+    padding-left: 15px;
+    position:absolute;
+    bottom: 50px;
+}
+
+.share-embed-message {
+    margin-right: 10px;
+}
+
+.message-component {
+    padding-left: 25px;
+    position: absolute;
+}
+
+.message-headers {
+    font-size: 15px;
+}
+
+.message-textarea {
+    width: 450px;
+    height: 150px;
+}
+
+.message-buttons {
+    border-color: black
+}
+
+.albumart {
+    width: 75px;
+    height: 70px
+}
+
+.embed-component {
+    padding-left: 25px;
+    padding-top: 20px;
+    position: absolute;
+}
+
+.embed, .message, .socialmediashare {
+    
+    display: inline-block;
+    padding: 10px;
+    font-size: 30px;
+    font-family: Arial;
+}
+
+
+.nextUp, .addToPlaylist, .station {
+    display: block;
+    position: relative;
+    left: 95px;
+    top: -40px
+}
+
+
+.share-button-image {
+    color: #000000
+}
+
+.reposts {
+    position: relative;
+    left: 314px;
+    top: 2px
+}
+.likes {
+    position: relative;
+    left: 308px;
+    top: 2px
+}
+.plays {
+    position: relative;
+    left: 300px
+}

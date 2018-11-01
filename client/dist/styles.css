@@ -3,13 +3,15 @@
 .container {
     display: inline-block;  
     position: relative;
-    left: 150px; 
+    left: 50px; 
+    top: 250px;
 }
 
 .counts {
     display: inline-block;  
     position: absolute;
-    left: 300px
+    left: 200px;
+    top: 257px;
 }
 
 .menu {
@@ -17,37 +19,80 @@
     text-align: center
 }
 
-.like-button, .repost-button  {
-    border-radius: 5px;
+.artist-art {
+    border-radius: 50%;
+    height: 110px;
+    width: 115px;
+    position: relative;
+    top: 260px;
+    left: 50px;
+}
+
+.artist-name {
+    position: relative;
+    top: 270px;
+    left: 50px;
+}
+
+.artist-component {
+    top: 260px;
+    left: 50px;
+}
+
+.like-button, .repost-button {
+    float: left;
+    margin-right: 5px;
+    border-radius: 4px;
     font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Verdana,Tahoma,sans-serif;
 }
 
-.share-button {
+.share-button  {
     position: relative;
-    border-radius: 5px;
-    left: 62px;
+    float: left;
+    margin-right: 5px;
+    border-radius: 4px;
+    left: 72px;
     top: -22px;
     font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Verdana,Tahoma,sans-serif;
 }
 
 .more-button {
-    border-radius: 5px;
+    border-radius: 4px;
+    float: left;
+    margin-right: 5px;
     height: 22px;
     position: relative;
-    left: 98px;
-    top: -44px;
+    left: 72px;
+    top: -22px;
     text-align: center;
-    font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Verdana,Tahoma,sans-serif;
+}
+
+.embedplayer {
+    position: relative;
+    left: -17px;
+
+    padding-top: 15px;
+    padding-left: 15px;
+    width: 500px;
+    height: 170px
+}
+
+.embeddiv {
+    border-bottom: 4px solid #f2f2f2;
+    padding-top: 15px;
+    padding-left: 15px;
+    width: 500px;
+    height: 200px
 }
 
 
-
-
 .share-title {
-    font-size: 18px;
+    font-size: 16px;
     padding-left: 20px;
     position: absolute;
-    bottom: 85px;
+    bottom: 95px;
+    font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Verdana,Tahoma,sans-serif;
+    font-weight: 530
 }
 
 .soundcloud-link {
@@ -80,25 +125,62 @@
 
 .message-component {
     padding-left: 25px;
+    padding-top: 15px;
     position: absolute;
 }
 
 .message-headers {
-    font-size: 15px;
+    font-size: 13px;
+    font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Verdana,Tahoma,sans-serif;
+    font-weight: 530
+}
+
+.message-input {
+    width: 475px;
+    height: 25px;
+    border-radius: 5px;
+    border-color: lightgrey;
 }
 
 .message-textarea {
-    width: 450px;
-    height: 150px;
+    width: 475px;
+    height: 200px;
+    border-radius: 5px;
 }
 
 .message-buttons {
     border-color: black
 }
 
+.add-track-button {
+    position: relative;
+    bottom: 35px;
+    left: 15px;
+    font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Verdana,Tahoma,sans-serif;
+    width: 78px;
+    height: 25px;
+    border-radius: 4px;
+    font-size: 12px;
+    background-color: white
+}
+
+.send-button {
+    position: relative;
+    bottom: 35px;
+    left: 325px;
+    font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Verdana,Tahoma,sans-serif;
+    width: 60px;
+    height: 25px;
+    border-radius: 4px;
+    font-size: 12px;
+    color: white;
+    background-color: #ff5500;
+}
+
+
 .albumart {
-    width: 75px;
-    height: 70px
+    width: 85px;
+    height: 80px
 }
 
 .embed-component {
@@ -107,11 +189,19 @@
     position: absolute;
 }
 
+.sem {
+    padding-left: 20px;
+    padding-top: 10px;
+    font-weight: 500;
+}
+
+
 .embed, .message, .socialmediashare {
-    
+    border-bottom: 1px solid #f2f2f2;
     display: inline-block;
     padding: 10px;
-    font-size: 30px;
+    font-weight: 545;
+    font-size: 23px;
     font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Verdana,Tahoma,sans-serif;
 }
 

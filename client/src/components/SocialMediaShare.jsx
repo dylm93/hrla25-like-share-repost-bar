@@ -16,6 +16,9 @@ class SocialMediaShare extends React.Component {
             <div>
 
                 <h1 className = 'share-title'>Share</h1>
+                <div className = 'embeddiv'>
+                    <img className = 'embedplayer' src = 'http://getsatisfaction.com/assets/some_html/soundcloud_embed.png'/>
+                </div>
                 <div className = 'share-element'>
                     <div className = 'sm'>
                         <span><img className = 'twitter' src = 'http://www.charlottemi.org/wp-content/uploads/2018/01/Official-Twitter-button-square.png'/></span>

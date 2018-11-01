@@ -4,6 +4,8 @@ import Share from './Share.jsx';
 import Artist from './Artist.jsx';
 import { sampleSongs } from '../sampleData'
 import axios from 'axios';
+import { Z_FILTERED } from 'zlib';
+import { fileURLToPath } from 'url';
 
 class LRSBar extends React.Component {
     constructor(props) {
@@ -13,8 +15,8 @@ class LRSBar extends React.Component {
             likeCount: this.currentSong['likeCount'],
             repostCount: this.currentSong['repostCount'],
             playsCount: this.currentSong['playsCount'],
-            bgLikeColor: 'white',
-            bgRepostColor: 'white',
+            bgLikeColor: '#e5e5e5',
+            bgRepostColor: '#e5e5e5',
             likeClicked: true,
             repostClicked: true,
             currentSong: sampleSongs[0]
@@ -62,7 +64,7 @@ class LRSBar extends React.Component {
             const id = this.state.currentSong._id
                 
             this.setState({
-                bgLikeColor: '#ff5500',
+                bgLikeColor: '#ff5500'
             })
 
             axios.patch(`/api/inc/${id}`, {params: {_id: id}})
@@ -80,7 +82,7 @@ class LRSBar extends React.Component {
             const id = this.state.currentSong._id
 
             this.setState({
-                bgLikeColor: 'white'     
+                bgLikeColor: '#e5e5e5'     
             })
 
             axios.patch(`/api/likedec/${id}`, {params: {_id: id}})
@@ -124,7 +126,7 @@ class LRSBar extends React.Component {
             const id = this.state.currentSong._id
 
             this.setState({
-                bgRepostColor: 'white'
+                bgRepostColor: '#e5e5e5'
             })
 
             axios.patch(`/api/repostdec/${id}`, {params: {_id: id}})
@@ -138,8 +140,39 @@ class LRSBar extends React.Component {
                 })
             )
         }
-
     }
+
+    onLikeHover () {
+        if (this.state.likeClicked === true) {
+        this.setState({
+            bgLikeColor: '#BDBDBD'
+        })
+    }
+    }
+    onRepostHover () {
+        if (this.state.repostClicked === true) {
+        this.setState({
+            bgRepostColor: '#BDBDBD'
+        })
+    }
+    }
+
+    onLikeLeave () {
+        if (this.state.likeClicked === true) {
+        this.setState({
+            bgLikeColor: '#e5e5e5'
+        })
+    }
+    }
+
+    onRepostLeave () {
+        if (this.state.repostClicked === true) {
+        this.setState({
+            bgRepostColor: '#e5e5e5'
+        })
+    }
+    }
+    
 
 
     render () {
@@ -147,8 +180,8 @@ class LRSBar extends React.Component {
             <div>
 
                 <div  className= 'container'>
-                    <button className = 'like-button' style={{backgroundColor:this.state.bgLikeColor}} onClick ={this.toggleLikeClass} id = 'like-button' ><img style={{color:this.state.bgLikeColor}} src='https://cdn2.iconfinder.com/data/icons/flat-ui-icons-24-px/24/heart-24-512.png' width="12" height="12"/></button>
-                    <button className = 'repost-button' style={{backgroundColor:this.state.bgRepostColor}} onClick ={this.toggleRepostClass} id = 'repost-button'><img src='https://cdn0.iconfinder.com/data/icons/zondicons/20/repost-512.png' width="15" height="15"/></button>
+                    <button className = 'like-button' style={{borderColor:this.state.bgLikeColor}} onMouseOver={this.onLikeHover.bind(this)} onMouseLeave={this.onLikeLeave.bind(this)} onClick ={this.toggleLikeClass} id = 'like-button' ><img style={{color:this.state.bgLikeColor}} src='https://cdn2.iconfinder.com/data/icons/flat-ui-icons-24-px/24/heart-24-512.png' width="12" height="12"/></button>
+                    <button className = 'repost-button' style={{borderColor:this.state.bgRepostColor}} onMouseOver={this.onRepostHover.bind(this)} onMouseLeave={this.onRepostLeave.bind(this)} onClick ={this.toggleRepostClass} id = 'repost-button'><img src='https://cdn0.iconfinder.com/data/icons/zondicons/20/repost-512.png' width="15" height="15"/></button>
                     <span> <Share /> </span>
                     <span className = 'more' ><MoreMenu/> </span>
                 </div>

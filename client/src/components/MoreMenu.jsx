@@ -6,7 +6,7 @@ class MoreMenu extends Component {
     
     this.state = {
       showMenu: false,
-      bgMoreColor: 'white',
+      bgMoreColor: '#e5e5e5',
       moreClicked: true,
     };
     
@@ -31,18 +31,30 @@ class MoreMenu extends Component {
     if (!this.dropdownMenu.contains(event.target)) {
       
       this.setState({ showMenu: false,
-        bgMoreColor: 'white'
+        bgMoreColor: '#e5e5e5'
     }, () => {
         document.removeEventListener('click', this.closeMenu);
       });  
     }
   }
 
+  onMoreHover () {
+    this.setState ({
+      bgMoreColor: '#BDBDBD'
+    })
+  }
+
+  onMoreLeave () {
+    this.setState ({
+      bgMoreColor: '#e5e5e5'
+    })
+  }
+
   render() {
     return (
       <div>
           <span>
-        <button className = 'more-button' style= {{backgroundColor:this.state.bgMoreColor}} onClick={this.showMenu}>
+        <button className = 'more-button' style= {{borderColor:this.state.bgMoreColor}} onMouseOver = {this.onMoreHover.bind(this)} onMouseLeave = {this.onMoreLeave.bind(this)} onClick={this.showMenu}>
           ...
         </button>
         

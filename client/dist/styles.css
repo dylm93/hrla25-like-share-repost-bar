@@ -4,14 +4,13 @@
     display: inline-block;  
     position: relative;
     left: 50px; 
-    top: 250px;
 }
 
 .counts {
     display: inline-block;  
     position: absolute;
     left: 200px;
-    top: 257px;
+    
 }
 
 .menu {
@@ -25,13 +24,11 @@
     height: 110px;
     width: 115px;
     position: relative;
-    top: 260px;
     left: 50px;
 }
 
 .artist-name {
     position: relative;
-    top: 265px;
     left: 50px;
     font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Verdana,Tahoma,sans-serif;
 
@@ -42,21 +39,23 @@
     width: 13px;
     height: 13px;
     position: relative;
-    top: 242px;
+    top: -22px;
     left: 120px;
     color: '#ff5500';
 }
 
 .artist-name-star {
     display: block;
+    filter: brightness(150%);
 }
 
 .artist-component {
-    top: 260px;
-    left: 50px;
+    top: -25px;
+    position: relative;
 }
 
 .like-button {
+    outline: none;
     display: inline-block;
     position: relative;
     height: 26px;
@@ -73,6 +72,7 @@
 }
 
 .repost-button {
+    outline: none;
     display: inline-block;
     position: relative;
     top: 2px;
@@ -90,6 +90,7 @@
 }
 
 .share-button  {
+    outline: none;
     display: inline-block;
     position: relative;
     top: -26px;
@@ -108,6 +109,7 @@
 }
 
 .more-button {
+    outline: none;
     display: inline-block;
     position: relative;
     text-align: center;
@@ -298,11 +300,12 @@
     padding-left: 20px;
     padding-top: 10px;
     font-weight: 500;
+    border-bottom: 1px solid #f2f2f2;
 }
 
 
 .embed, .message, .socialmediashare {
-    border-bottom: 1px solid #f2f2f2;
+    
     display: inline-block;
     padding: 10px;
     font-weight: 545;
@@ -312,6 +315,8 @@
 
 
 .nextUp, .addToPlaylist, .station {
+    outline: none;
+    font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Verdana,Tahoma,sans-serif;
     display: block;
     position: relative;
     left: 108px;

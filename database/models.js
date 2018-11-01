@@ -7,7 +7,8 @@ const songsSchema = mongoose.Schema (
     artist: {type: String},
     likeCount: {type: Number},
     playsCount: {type: Number},
-    repostCount: {type: Number}
+    repostCount: {type: Number},
+    albumArt: {type: String}
 },
 {
     timestamps: false

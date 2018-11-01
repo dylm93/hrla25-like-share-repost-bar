@@ -4,7 +4,8 @@ const sampleSongs = [
         artist: 'Led Zeppelin',
         likeCount: 0,
         playsCount: 0,
-        repostCount: 0
+        repostCount: 0,
+        albumArt: 'https://images-na.ssl-images-amazon.com/images/I/91lTMM49zKL._SY355_.jpg'
     },
     {
         
@@ -12,7 +13,8 @@ const sampleSongs = [
         artist: 'Ramones',
         likeCount: 0,
         playsCount: 0,
-        repostCount: 0
+        repostCount: 0,
+        albumArt: 'https://consequenceofsound.files.wordpress.com/2014/06/ramones-1976.jpg?quality=80&w=640'
     },
     {
        
@@ -20,7 +22,8 @@ const sampleSongs = [
         artist: 'The Rolling Stones',
         likeCount: 0,
         playsCount: 0,
-        repostCount: 0
+        repostCount: 0,
+        albumArt: 'http://images.gibson.com/Lifestyle/2016/Rolling-Stones_Rocks-Off_600.jpg'
     },
     {
        
@@ -28,7 +31,8 @@ const sampleSongs = [
         artist: 'The Doors',
         likeCount: 0,
         playsCount: 0,
-        repostCount: 0
+        repostCount: 0,
+        albumArt: 'https://i.ytimg.com/vi/deB_u-to-IE/hqdefault.jpg'
     },
     {
         
@@ -36,14 +40,17 @@ const sampleSongs = [
         artist: 'CCR',
         likeCount: 0,
         playsCount: 0,
-        repostCount: 0
+        repostCount: 0,
+        albumArt: 'https://img.discogs.com/kErYBMumf2FbhOWvRTHFRqRE8u8=/fit-in/600x605/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-371917-1393573750-9393.jpeg.jpg'
     },
     {
         songName: 'Angie',
         artist: 'The Rolling Stones',
         likeCount: 0,
         playsCount: 0,
-        repostCount: 0
+        repostCount: 0,
+        albumArt: 'http://images.gibson.com/Lifestyle/2016/Rolling-Stones_Rocks-Off_600.jpg'
+
     },
     {
         
@@ -51,7 +58,9 @@ const sampleSongs = [
         artist: 'The Rolling Stones',
         likeCount: 0,
         playsCount: 0,
-        repostCount: 0
+        repostCount: 0,
+        albumArt: 'http://images.gibson.com/Lifestyle/2016/Rolling-Stones_Rocks-Off_600.jpg'
+
     },
     {
        
@@ -59,7 +68,9 @@ const sampleSongs = [
         artist: 'The Rolling Stones',
         likeCount: 0,
         playsCount: 0,
-        repostCount: 0
+        repostCount: 0,
+        albumArt: 'http://images.gibson.com/Lifestyle/2016/Rolling-Stones_Rocks-Off_600.jpg'
+
     },
     {
        
@@ -67,7 +78,9 @@ const sampleSongs = [
         artist: 'The Rolling Stones',
         likeCount: 0,
         playsCount: 0,
-        repostCount: 0
+        repostCount: 0,
+        albumArt: 'http://images.gibson.com/Lifestyle/2016/Rolling-Stones_Rocks-Off_600.jpg'
+
     },
     {
         
@@ -75,14 +88,18 @@ const sampleSongs = [
         artist: 'The Rolling Stones',
         likeCount: 0,
         playsCount: 0,
-        repostCount: 0
+        repostCount: 0,
+        albumArt: 'http://images.gibson.com/Lifestyle/2016/Rolling-Stones_Rocks-Off_600.jpg'
+
     },
     {
         songName: 'Brown Sugar',
         artist: 'The Rolling Stones',
         likeCount: 0,
         playsCount: 0,
-        repostCount: 0
+        repostCount: 0,
+        albumArt: 'http://images.gibson.com/Lifestyle/2016/Rolling-Stones_Rocks-Off_600.jpg'
+
     },
     {
         
@@ -90,7 +107,9 @@ const sampleSongs = [
         artist: 'The Rolling Stones',
         likeCount: 0,
         playsCount: 0,
-        repostCount: 0
+        repostCount: 0,
+        albumArt: 'http://images.gibson.com/Lifestyle/2016/Rolling-Stones_Rocks-Off_600.jpg'
+
     },
     {
        
@@ -98,7 +117,9 @@ const sampleSongs = [
         artist: 'The Rolling Stones',
         likeCount: 0,
         playsCount: 0,
-        repostCount: 0
+        repostCount: 0,
+        albumArt: 'http://images.gibson.com/Lifestyle/2016/Rolling-Stones_Rocks-Off_600.jpg'
+
     },
     {
        
@@ -106,7 +127,9 @@ const sampleSongs = [
         artist: 'The Rolling Stones',
         likeCount: 0,
         playsCount: 0,
-        repostCount: 0
+        repostCount: 0,
+        albumArt: 'http://images.gibson.com/Lifestyle/2016/Rolling-Stones_Rocks-Off_600.jpg'
+
     },
     {
         
@@ -114,14 +137,18 @@ const sampleSongs = [
         artist: 'The Rolling Stones',
         likeCount: 0,
         playsCount: 0,
-        repostCount: 0
+        repostCount: 0,
+        albumArt: 'http://images.gibson.com/Lifestyle/2016/Rolling-Stones_Rocks-Off_600.jpg'
+
     },
     {
         songName: 'Midnight Rambler',
         artist: 'The Rolling Stones',
         likeCount: 0,
         playsCount: 0,
-        repostCount: 0
+        repostCount: 0,
+        albumArt: 'http://images.gibson.com/Lifestyle/2016/Rolling-Stones_Rocks-Off_600.jpg'
+
     },
     {
         
@@ -129,7 +156,9 @@ const sampleSongs = [
         artist: 'The Rolling Stones',
         likeCount: 0,
         playsCount: 0,
-        repostCount: 0
+        repostCount: 0,
+        albumArt: 'http://images.gibson.com/Lifestyle/2016/Rolling-Stones_Rocks-Off_600.jpg'
+
     },
     {
        
@@ -137,7 +166,9 @@ const sampleSongs = [
         artist: 'The Rolling Stones',
         likeCount: 0,
         playsCount: 0,
-        repostCount: 0
+        repostCount: 0,
+        albumArt: 'http://images.gibson.com/Lifestyle/2016/Rolling-Stones_Rocks-Off_600.jpg'
+
     },
     {
        
@@ -145,7 +176,9 @@ const sampleSongs = [
         artist: 'The Rolling Stones',
         likeCount: 0,
         playsCount: 0,
-        repostCount: 0
+        repostCount: 0,
+        albumArt: 'http://images.gibson.com/Lifestyle/2016/Rolling-Stones_Rocks-Off_600.jpg'
+
     },
     {
         
@@ -153,14 +186,18 @@ const sampleSongs = [
         artist: 'The Doors',
         likeCount: 0,
         playsCount: 0,
-        repostCount: 0
+        repostCount: 0,
+        albumArt: 'https://cloud10.todocoleccion.online/musica-cds/tc/2016/11/02/15/64461083.jpg'
+
     },
     {
         songName: 'Roadhouse Blues',
         artist: 'The Doors',
         likeCount: 0,
         playsCount: 0,
-        repostCount: 0
+        repostCount: 0,
+        albumArt: 'https://cloud10.todocoleccion.online/musica-cds/tc/2016/11/02/15/64461083.jpg'
+
     },
     {
         
@@ -168,7 +205,9 @@ const sampleSongs = [
         artist: 'The Doors',
         likeCount: 0,
         playsCount: 0,
-        repostCount: 0
+        repostCount: 0,
+        albumArt: 'https://cloud10.todocoleccion.online/musica-cds/tc/2016/11/02/15/64461083.jpg'
+
     },
     {
        
@@ -176,7 +215,9 @@ const sampleSongs = [
         artist: 'The Doors',
         likeCount: 0,
         playsCount: 0,
-        repostCount: 0
+        repostCount: 0,
+        albumArt: 'https://cloud10.todocoleccion.online/musica-cds/tc/2016/11/02/15/64461083.jpg'
+
     },
     {
        
@@ -184,7 +225,9 @@ const sampleSongs = [
         artist: 'The Doors',
         likeCount: 0,
         playsCount: 0,
-        repostCount: 0
+        repostCount: 0,
+        albumArt: 'https://cloud10.todocoleccion.online/musica-cds/tc/2016/11/02/15/64461083.jpg'
+
     },
     {
         
@@ -192,14 +235,17 @@ const sampleSongs = [
         artist: 'The Doors',
         likeCount: 0,
         playsCount: 0,
-        repostCount: 0
+        repostCount: 0,
+        albumArt: 'https://cloud10.todocoleccion.online/musica-cds/tc/2016/11/02/15/64461083.jpg'
+
     },
     {
         songName: 'Black Dog',
         artist: 'Led Zeppelin',
         likeCount: 0,
         playsCount: 0,
-        repostCount: 0
+        repostCount: 0,
+        albumArt: 'https://images-na.ssl-images-amazon.com/images/I/91lTMM49zKL._SY355_.jpg'
     },
     {
         
@@ -207,7 +253,9 @@ const sampleSongs = [
         artist: 'Led Zeppelin',
         likeCount: 0,
         playsCount: 0,
-        repostCount: 0
+        repostCount: 0,
+        albumArt: 'https://images-na.ssl-images-amazon.com/images/I/91lTMM49zKL._SY355_.jpg'
+
     },
     {
        
@@ -215,7 +263,9 @@ const sampleSongs = [
         artist: 'Led Zeppelin',
         likeCount: 0,
         playsCount: 0,
-        repostCount: 0
+        repostCount: 0,        
+        albumArt: 'https://images-na.ssl-images-amazon.com/images/I/91lTMM49zKL._SY355_.jpg'
+
     },
     {
        
@@ -223,7 +273,9 @@ const sampleSongs = [
         artist: 'Led Zeppelin',
         likeCount: 0,
         playsCount: 0,
-        repostCount: 0
+        repostCount: 0,
+        albumArt: 'https://images-na.ssl-images-amazon.com/images/I/91lTMM49zKL._SY355_.jpg'
+
     },
     {
         
@@ -231,14 +283,18 @@ const sampleSongs = [
         artist: 'Led Zeppelin',
         likeCount: 0,
         playsCount: 0,
-        repostCount: 0
+        repostCount: 0,
+        albumArt: 'https://images-na.ssl-images-amazon.com/images/I/91lTMM49zKL._SY355_.jpg'
+
     },
     {
         songName: 'Dazed and Confused',
         artist: 'Led Zeppelin',
         likeCount: 0,
         playsCount: 0,
-        repostCount: 0
+        repostCount: 0,
+        albumArt: 'https://images-na.ssl-images-amazon.com/images/I/91lTMM49zKL._SY355_.jpg'
+
     },
     {
         
@@ -246,7 +302,9 @@ const sampleSongs = [
         artist: 'Led Zeppelin',
         likeCount: 0,
         playsCount: 0,
-        repostCount: 0
+        repostCount: 0,
+        albumArt: 'https://images-na.ssl-images-amazon.com/images/I/91lTMM49zKL._SY355_.jpg'
+
     },
     {
        
@@ -254,7 +312,9 @@ const sampleSongs = [
         artist: 'Led Zeppelin',
         likeCount: 0,
         playsCount: 0,
-        repostCount: 0
+        repostCount: 0,
+        albumArt: 'https://images-na.ssl-images-amazon.com/images/I/91lTMM49zKL._SY355_.jpg'
+
     },
     {
        
@@ -262,7 +322,9 @@ const sampleSongs = [
         artist: 'Led Zeppelin',
         likeCount: 0,
         playsCount: 0,
-        repostCount: 0
+        repostCount: 0,
+        albumArt: 'https://images-na.ssl-images-amazon.com/images/I/91lTMM49zKL._SY355_.jpg'
+
     },
     {
         
@@ -270,14 +332,18 @@ const sampleSongs = [
         artist: 'Led Zeppelin',
         likeCount: 0,
         playsCount: 0,
-        repostCount: 0
+        repostCount: 0,
+        albumArt: 'https://images-na.ssl-images-amazon.com/images/I/91lTMM49zKL._SY355_.jpg'
+
     },
     {
         songName: 'Fool in the Rain',
         artist: 'Led Zeppelin',
         likeCount: 0,
         playsCount: 0,
-        repostCount: 0
+        repostCount: 0,
+        albumArt: 'https://images-na.ssl-images-amazon.com/images/I/91lTMM49zKL._SY355_.jpg'
+
     },
     {
         
@@ -285,7 +351,9 @@ const sampleSongs = [
         artist: 'Led Zeppelin',
         likeCount: 0,
         playsCount: 0,
-        repostCount: 0
+        repostCount: 0,
+        albumArt: 'https://images-na.ssl-images-amazon.com/images/I/91lTMM49zKL._SY355_.jpg'
+
     },
     {
        
@@ -293,7 +361,9 @@ const sampleSongs = [
         artist: 'The Who',
         likeCount: 0,
         playsCount: 0,
-        repostCount: 0
+        repostCount: 0,
+        albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Whosnext.jpg/220px-Whosnext.jpg'
+
     },
     {
        
@@ -301,7 +371,9 @@ const sampleSongs = [
         artist: 'The Who',
         likeCount: 0,
         playsCount: 0,
-        repostCount: 0
+        repostCount: 0,
+        albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Whosnext.jpg/220px-Whosnext.jpg'
+
     },
     {
         
@@ -309,14 +381,18 @@ const sampleSongs = [
         artist: 'The Who',
         likeCount: 0,
         playsCount: 0,
-        repostCount: 0
+        repostCount: 0,
+        albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Whosnext.jpg/220px-Whosnext.jpg'
+
     },
     {
         songName: 'Magic Bus',
         artist: 'The Who',
         likeCount: 0,
         playsCount: 0,
-        repostCount: 0
+        repostCount: 0,
+        albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Whosnext.jpg/220px-Whosnext.jpg'
+
     },
     {
         
@@ -324,7 +400,9 @@ const sampleSongs = [
         artist: 'The Who',
         likeCount: 0,
         playsCount: 0,
-        repostCount: 0
+        repostCount: 0,
+        albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Whosnext.jpg/220px-Whosnext.jpg'
+
     },
     {
        
@@ -332,7 +410,9 @@ const sampleSongs = [
         artist: 'The Who',
         likeCount: 0,
         playsCount: 0,
-        repostCount: 0
+        repostCount: 0,
+        albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Whosnext.jpg/220px-Whosnext.jpg'
+
     },
     {
        
@@ -340,7 +420,9 @@ const sampleSongs = [
         artist: 'The Who',
         likeCount: 0,
         playsCount: 0,
-        repostCount: 0
+        repostCount: 0,
+        albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Whosnext.jpg/220px-Whosnext.jpg'
+
     },
     {
         
@@ -348,14 +430,18 @@ const sampleSongs = [
         artist: 'The Who',
         likeCount: 0,
         playsCount: 0,
-        repostCount: 0
+        repostCount: 0,
+        albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Whosnext.jpg/220px-Whosnext.jpg'
+
     },
     {
         songName: 'My Wife',
         artist: 'The Who',
         likeCount: 0,
         playsCount: 0,
-        repostCount: 0
+        repostCount: 0,
+        albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Whosnext.jpg/220px-Whosnext.jpg'
+
     },
     {
         
@@ -363,7 +449,9 @@ const sampleSongs = [
         artist: 'The Who',
         likeCount: 0,
         playsCount: 0,
-        repostCount: 0
+        repostCount: 0,
+        albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Whosnext.jpg/220px-Whosnext.jpg'
+
     },
     {
        
@@ -371,7 +459,9 @@ const sampleSongs = [
         artist: 'The Who',
         likeCount: 0,
         playsCount: 0,
-        repostCount: 0
+        repostCount: 0,
+        albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Whosnext.jpg/220px-Whosnext.jpg'
+
     },
     {
        
@@ -379,7 +469,9 @@ const sampleSongs = [
         artist: 'The Who',
         likeCount: 0,
         playsCount: 0,
-        repostCount: 0
+        repostCount: 0,
+        albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Whosnext.jpg/220px-Whosnext.jpg'
+
     },
     {
         
@@ -387,7 +479,8 @@ const sampleSongs = [
         artist: 'The Who',
         likeCount: 0,
         playsCount: 0,
-        repostCount: 0
+        repostCount: 0,
+        albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Whosnext.jpg/220px-Whosnext.jpg'
     },
 ]
 

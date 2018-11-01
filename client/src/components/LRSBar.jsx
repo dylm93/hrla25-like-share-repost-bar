@@ -12,9 +12,9 @@ class LRSBar extends React.Component {
         super(props)
 
         this.state = ({
-            likeCount: this.currentSong['likeCount'],
-            repostCount: this.currentSong['repostCount'],
-            playsCount: this.currentSong['playsCount'],
+            likeCount: sampleSongs[0]['likeCount'],
+            repostCount: sampleSongs[0]['repostCount'],
+            playsCount: sampleSongs[0]['playsCount'],
             bgLikeColor: '#e5e5e5',
             bgRepostColor: '#e5e5e5',
             likeClicked: true,
@@ -43,14 +43,14 @@ class LRSBar extends React.Component {
     currentSong () { 
         axios.get('/api')
         .then(res => {
-        const index = Math.floor(Math.random() * 5) + 1
+        const index = Math.floor(Math.random() * 49) + 1
         const song = res.data[index]
-        console.log(song)
         this.setState({ 
             currentSong: song,
             likeCount: song['likeCount'],
-            repostCount: song['repostCount']
+            repostCount: song['repostCount'],
          });
+         console.log(this.state.artistName)
       })
       console.log('likecount', this.state.currentSong['likeCount'])
     }
@@ -193,7 +193,7 @@ class LRSBar extends React.Component {
                 </div>
             
                 <div className = 'artist'>
-                    <Artist />
+                    <Artist currentSong = {this.state.currentSong}/>
                 </div>
 
             </div>

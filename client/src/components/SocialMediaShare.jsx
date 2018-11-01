@@ -30,8 +30,13 @@ class SocialMediaShare extends React.Component {
                     </div>
                 
                 </div>
-                <div className = 'soundcloud-link'>
-                        <input className = 'input'></input>
+                <div className = 'share-link'>
+                    <div className = 'soundcloud-link'>
+                            <input className = 'input'></input>
+                    </div>
+                        <input type = 'checkbox' className = 'checkbox'></input> 
+                        <a className = 'at'>at</a>
+                        <input className = 'input-time'></input>
                 </div>
 
                 

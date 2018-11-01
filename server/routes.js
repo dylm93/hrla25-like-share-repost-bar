@@ -7,13 +7,16 @@ router.route('/api')
     .delete(controller.delete)
 
 router.route('/api/inc/:id')
-    .patch(controller.incrementPatchLikes)
-    .get(controller.getPatchLikes)
+    .patch(controller.incrementLikes)
+    .get(controller.getLikesReposts)
 
-// router.route('api/dec/:id')
-//     .patch(controller.decrementPatchLikes)
+router.route('/api/likedec/:id') 
+    .patch(controller.decrementLikes)
 
 router.route('/api/repostinc/:id')
-    .patch(controller.incrementRepostLikes)
+    .patch(controller.incrementReposts)
+
+router.route('/api/repostdec/:id')
+    .patch(controller.decrementReposts)
 
 module.exports = router;

@@ -32,7 +32,7 @@ export default class Share extends Component {
           showEmbedComponent: false,
           bgShareColor: '#ff5500',
           bgEmbedColor: 'black',
-          bgMessageColor: 'black',
+          bgMessageColor: 'black'
           
         });
       }
@@ -56,9 +56,7 @@ export default class Share extends Component {
           showMessageComponent: false,
           bgEmbedColor: '#ff5500',
           bgMessageColor: 'black',
-          bgShareColor: 'black',
-          
-
+          bgShareColor: 'black'
         });
       }
     
@@ -78,7 +76,7 @@ export default class Share extends Component {
     render() {
         return (
             <div>
-                <button display = 'inline-block' className = 'share-button' onClick={() => this.openModal()} ><img src = 'https://cdn.shopify.com/s/files/1/0099/9562/products/274_Hero_Social_Sharing_Button_2048x2048.jpg?v=1475281658' width ='20' height = '15'  /></button>
+                <button display = 'inline-block' className = 'share-button' onClick={() => this.openModal()} ><img src = 'https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-share-512.png' width ='16' height = '16'  /></button>
                 
                 <Modal className = 'share-modal' visible={this.state.visible} width={this.state.width} height={this.state.height} effect="fadeInDown" onClickAway={() => this.closeModal()}>
                     <div className = 'share-embed-message'>

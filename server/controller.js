@@ -27,7 +27,7 @@ const controller = {
                 }
             })
     },
-    incrementPatchLikes: (req, res) => {
+    incrementLikes: (req, res) => {
             const id = req.params.id
             console.log('************', id)
             
@@ -39,9 +39,20 @@ const controller = {
             
     },
 
-    incrementRepostLikes: (req, res) => {
+    decrementLikes: (req, res) => {
         const id = req.params.id
-            console.log('************', id)
+        console.log('************', id)
+        
+        Songs.findByIdAndUpdate({_id : id}, { $inc: {likeCount: -1 }})
+          .then( function (song) {
+            console.log('incremented count')
+            res.send(song)
+          })
+        
+    },
+
+    incrementReposts: (req, res) => {
+        const id = req.params.id
             
             Songs.findByIdAndUpdate({_id : id}, { $inc: {repostCount: 1 }})
               .then( function (song) {
@@ -51,7 +62,18 @@ const controller = {
             
     },
 
-    getPatchLikes: (req, res) => {
+    decrementReposts: (req, res) => {
+        const id = req.params.id
+            
+            Songs.findByIdAndUpdate({_id : id}, { $inc: {repostCount: -1 }})
+              .then( function (song) {
+                console.log('incremented count')
+                res.send(song)
+              })
+            
+    },
+
+    getLikesReposts: (req, res) => {
             const id = req.params.id
             console.log('************', id)
         

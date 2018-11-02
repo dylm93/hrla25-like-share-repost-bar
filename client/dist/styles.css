@@ -31,7 +31,7 @@
     position: relative;
     left: 50px;
     font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Verdana,Tahoma,sans-serif;
-
+    font-size: 14px;
 }
 
 .artist-star {
@@ -39,19 +39,62 @@
     width: 13px;
     height: 13px;
     position: relative;
-    top: -25px;
-    left: 145px;
+    top: -3px;
+    left: 2px;
     color: '#ff5500';
 }
 
 .artist-name-star {
     display: block;
     filter: brightness(150%);
+    position: relative;
+    top: 2px;
 }
 
 .artist-component {
     top: -25px;
     position: relative;
+}
+
+.followers {
+    display: block;
+    position: relative;
+    width: 17px;
+    height: 17px;
+    top: 5px;
+    filter: brightness(75%)
+}
+
+.followers-amount {
+    font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Verdana,Tahoma,sans-serif;
+    display: inline;
+    position: relative;
+    color: rgb(129, 127, 127);
+    font-size: 12px;
+    line-height: 12px;
+    top: -13px;
+    left: 20px;
+}
+
+.tracks {
+    display: block;
+    position: relative;
+    width: 17px;
+    height: 17px;
+    top: -28px;
+    left: 57px;
+    filter: brightness(90%)
+}
+
+.tracks-amount {
+    font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Verdana,Tahoma,sans-serif;
+    display: inline;
+    position: relative;
+    color:rgb(129, 127, 127);
+    font-size: 12px;
+    line-height: 12px;
+    top: -47px;
+    left: 76px;
 }
 
 .like-button {

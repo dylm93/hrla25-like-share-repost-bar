@@ -32,7 +32,7 @@ const sampleSongs = [
         likeCount: 0,
         playsCount: 0,
         repostCount: 0,
-        albumArt: 'https://i.ytimg.com/vi/deB_u-to-IE/hqdefault.jpg'
+        albumArt: 'http://altamont.pt/wp-content/uploads/2014/03/MorrisonHotel.jpg'
     },
     {
         
@@ -187,7 +187,7 @@ const sampleSongs = [
         likeCount: 0,
         playsCount: 0,
         repostCount: 0,
-        albumArt: 'https://cloud10.todocoleccion.online/musica-cds/tc/2016/11/02/15/64461083.jpg'
+        albumArt: 'http://altamont.pt/wp-content/uploads/2014/03/MorrisonHotel.jpg'
 
     },
     {
@@ -196,7 +196,7 @@ const sampleSongs = [
         likeCount: 0,
         playsCount: 0,
         repostCount: 0,
-        albumArt: 'https://cloud10.todocoleccion.online/musica-cds/tc/2016/11/02/15/64461083.jpg'
+        albumArt: 'http://altamont.pt/wp-content/uploads/2014/03/MorrisonHotel.jpg'
 
     },
     {
@@ -206,7 +206,7 @@ const sampleSongs = [
         likeCount: 0,
         playsCount: 0,
         repostCount: 0,
-        albumArt: 'https://cloud10.todocoleccion.online/musica-cds/tc/2016/11/02/15/64461083.jpg'
+        albumArt: 'http://altamont.pt/wp-content/uploads/2014/03/MorrisonHotel.jpg'
 
     },
     {
@@ -216,7 +216,7 @@ const sampleSongs = [
         likeCount: 0,
         playsCount: 0,
         repostCount: 0,
-        albumArt: 'https://cloud10.todocoleccion.online/musica-cds/tc/2016/11/02/15/64461083.jpg'
+        albumArt: 'http://altamont.pt/wp-content/uploads/2014/03/MorrisonHotel.jpg'
 
     },
     {
@@ -226,7 +226,7 @@ const sampleSongs = [
         likeCount: 0,
         playsCount: 0,
         repostCount: 0,
-        albumArt: 'https://cloud10.todocoleccion.online/musica-cds/tc/2016/11/02/15/64461083.jpg'
+        albumArt: 'http://altamont.pt/wp-content/uploads/2014/03/MorrisonHotel.jpg'
 
     },
     {
@@ -236,7 +236,7 @@ const sampleSongs = [
         likeCount: 0,
         playsCount: 0,
         repostCount: 0,
-        albumArt: 'https://cloud10.todocoleccion.online/musica-cds/tc/2016/11/02/15/64461083.jpg'
+        albumArt: 'http://altamont.pt/wp-content/uploads/2014/03/MorrisonHotel.jpg'
 
     },
     {
@@ -482,6 +482,486 @@ const sampleSongs = [
         repostCount: 0,
         albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Whosnext.jpg/220px-Whosnext.jpg'
     },
+    {
+        songName: 'Big Poppa',
+        artist: 'Notorious B.I.G',
+        likeCount: 0,
+        playsCount: 0,
+        repostCount: 0,
+        albumArt: 'https://nyoobserver.files.wordpress.com/2017/03/11312842_1038215196188532_6473040481384645897_o.jpg?quality=80&w=594'
+    },
+    {
+        
+        songName: 'Juicy',
+        artist: 'Notorious B.I.G',
+        likeCount: 0,
+        playsCount: 0,
+        repostCount: 0,
+        albumArt: 'https://nyoobserver.files.wordpress.com/2017/03/11312842_1038215196188532_6473040481384645897_o.jpg?quality=80&w=594'
+    },
+    {
+       
+        songName: 'Hypnotized',
+        artist: 'Notorious B.I.G',
+        likeCount: 0,
+        playsCount: 0,
+        repostCount: 0,
+        albumArt: 'https://nyoobserver.files.wordpress.com/2017/03/11312842_1038215196188532_6473040481384645897_o.jpg?quality=80&w=594'
+    },
+    {
+       
+        songName: 'Microphone Murderer',
+        artist: 'Notorious B.I.G',
+        likeCount: 0,
+        playsCount: 0,
+        repostCount: 0,
+        albumArt: 'https://nyoobserver.files.wordpress.com/2017/03/11312842_1038215196188532_6473040481384645897_o.jpg?quality=80&w=594'
+    },
+    {
+        
+        songName: 'Mo Money Mo Problems',
+        artist: 'Notorious B.I.G',
+        likeCount: 0,
+        playsCount: 0,
+        repostCount: 0,
+        albumArt: 'https://nyoobserver.files.wordpress.com/2017/03/11312842_1038215196188532_6473040481384645897_o.jpg?quality=80&w=594'
+    },
+    {
+        songName: 'Angie',
+        artist: 'Notorious B.I.G',
+        likeCount: 0,
+        playsCount: 0,
+        repostCount: 0,
+        albumArt: 'https://nyoobserver.files.wordpress.com/2017/03/11312842_1038215196188532_6473040481384645897_o.jpg?quality=80&w=594'
+
+    },
+    {
+        
+        songName: 'One More Chance',
+        artist: 'Notorious B.I.G',
+        likeCount: 0,
+        playsCount: 0,
+        repostCount: 0,
+        albumArt: 'https://nyoobserver.files.wordpress.com/2017/03/11312842_1038215196188532_6473040481384645897_o.jpg?quality=80&w=594'
+
+    },
+    {
+       
+        songName: 'Runnin',
+        artist: 'Notorious B.I.G',
+        likeCount: 0,
+        playsCount: 0,
+        repostCount: 0,
+        albumArt: 'https://nyoobserver.files.wordpress.com/2017/03/11312842_1038215196188532_6473040481384645897_o.jpg?quality=80&w=594'
+
+    },
+    {
+       
+        songName: 'Notorious Thugs',
+        artist: 'Notorious B.I.G',
+        likeCount: 0,
+        playsCount: 0,
+        repostCount: 0,
+        albumArt: 'https://nyoobserver.files.wordpress.com/2017/03/11312842_1038215196188532_6473040481384645897_o.jpg?quality=80&w=594'
+    },
+    {
+        
+        songName: 'Gimme the Loot',
+        artist: 'Notorious B.I.G',
+        likeCount: 0,
+        playsCount: 0,
+        repostCount: 0,
+        albumArt: 'https://nyoobserver.files.wordpress.com/2017/03/11312842_1038215196188532_6473040481384645897_o.jpg?quality=80&w=594'
+
+    },
+    {
+        songName: 'Changes',
+        artist: '2pac',
+        likeCount: 0,
+        playsCount: 0,
+        repostCount: 0,
+        albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/2PacGreatestHits.jpg/220px-2PacGreatestHits.jpg'
+    },
+    {
+        
+        songName: 'Dear Mama',
+        artist: '2pac',
+        likeCount: 0,
+        playsCount: 0,
+        repostCount: 0,
+        albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/2PacGreatestHits.jpg/220px-2PacGreatestHits.jpg'
+
+    },
+    {
+       
+        songName: `California Love`,
+        artist: '2pac',
+        likeCount: 0,
+        playsCount: 0,
+        repostCount: 0,
+        albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/2PacGreatestHits.jpg/220px-2PacGreatestHits.jpg'
+
+    },
+    {
+       
+        songName: 'Hit Em Up',
+        artist: '2pac',
+        likeCount: 0,
+        playsCount: 0,
+        repostCount: 0,
+        albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/2PacGreatestHits.jpg/220px-2PacGreatestHits.jpg'
+
+    },
+    {
+        
+        songName: 'Ghetto Gospel',
+        artist: '2pac',
+        likeCount: 0,
+        playsCount: 0,
+        repostCount: 0,
+        albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/2PacGreatestHits.jpg/220px-2PacGreatestHits.jpg'
+
+    },
+    {
+        songName: 'Hail Mary',
+        artist: '2pac',
+        likeCount: 0,
+        playsCount: 0,
+        repostCount: 0,
+        albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/2PacGreatestHits.jpg/220px-2PacGreatestHits.jpg'
+
+    },
+    {
+        
+        songName: 'I Get Around',
+        artist: '2pac',
+        likeCount: 0,
+        playsCount: 0,
+        repostCount: 0,
+        albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/2PacGreatestHits.jpg/220px-2PacGreatestHits.jpg'
+
+    },
+    {
+       
+        songName: 'How Do U Want It',
+        artist: '2pac',
+        likeCount: 0,
+        playsCount: 0,
+        repostCount: 0,
+        albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/2PacGreatestHits.jpg/220px-2PacGreatestHits.jpg'
+
+    },
+    {
+       
+        songName: 'Life Goes On',
+        artist: '2pac',
+        likeCount: 0,
+        playsCount: 0,
+        repostCount: 0,
+        albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/2PacGreatestHits.jpg/220px-2PacGreatestHits.jpg'
+
+    },
+    {
+        
+        songName: 'Breathin',
+        artist: '2pac',
+        likeCount: 0,
+        playsCount: 0,
+        repostCount: 0,
+        albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/2PacGreatestHits.jpg/220px-2PacGreatestHits.jpg'
+
+    },
+    {
+        songName: 'Thugz Mansion',
+        artist: '2pac',
+        likeCount: 0,
+        playsCount: 0,
+        repostCount: 0,
+        albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/2PacGreatestHits.jpg/220px-2PacGreatestHits.jpg'
+
+    },
+    {
+        
+        songName: 'Riders on the Storm',
+        artist: '2pac',
+        likeCount: 0,
+        playsCount: 0,
+        repostCount: 0,
+        albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/2PacGreatestHits.jpg/220px-2PacGreatestHits.jpg'
+
+    },
+    {
+       
+        songName: 'To Live and Die in L.A.',
+        artist: '2pac',
+        likeCount: 0,
+        playsCount: 0,
+        repostCount: 0,
+        albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/2PacGreatestHits.jpg/220px-2PacGreatestHits.jpg'
+
+    },
+    {
+       
+        songName: 'Letter 2 My Unborn',
+        artist: '2pac',
+        likeCount: 0,
+        playsCount: 0,
+        repostCount: 0,
+        albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/2PacGreatestHits.jpg/220px-2PacGreatestHits.jpg'
+
+    },
+    {
+        
+        songName: 'Gangsta Party',
+        artist: '2pac',
+        likeCount: 0,
+        playsCount: 0,
+        repostCount: 0,
+        albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/2PacGreatestHits.jpg/220px-2PacGreatestHits.jpg'
+
+    },
+    {
+        songName: 'Come as You Are',
+        artist: 'Nirvana',
+        likeCount: 0,
+        playsCount: 0,
+        repostCount: 0,
+        albumArt: 'https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Fewedit.files.wordpress.com%2F2016%2F09%2F000125503.jpg%3Fw%3D720&w=1000&c=sc&poi=face&q=70'
+    },
+    {
+        
+        songName: 'Polly',
+        artist: 'Nirvana',
+        likeCount: 0,
+        playsCount: 0,
+        repostCount: 0,
+        albumArt: 'https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Fewedit.files.wordpress.com%2F2016%2F09%2F000125503.jpg%3Fw%3D720&w=1000&c=sc&poi=face&q=70'
+
+    },
+    {
+       
+        songName: 'About a Girl',
+        artist: 'Nirvana',
+        likeCount: 0,
+        playsCount: 0,
+        repostCount: 0,        
+        albumArt: 'https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Fewedit.files.wordpress.com%2F2016%2F09%2F000125503.jpg%3Fw%3D720&w=1000&c=sc&poi=face&q=70'
+
+    },
+    {
+       
+        songName: 'Lithium',
+        artist: 'Nirvana',
+        likeCount: 0,
+        playsCount: 0,
+        repostCount: 0,
+        albumArt: 'https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Fewedit.files.wordpress.com%2F2016%2F09%2F000125503.jpg%3Fw%3D720&w=1000&c=sc&poi=face&q=70'
+
+    },
+    {
+        
+        songName: 'All Apologies',
+        artist: 'Nirvana',
+        likeCount: 0,
+        playsCount: 0,
+        repostCount: 0,
+        albumArt: 'https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Fewedit.files.wordpress.com%2F2016%2F09%2F000125503.jpg%3Fw%3D720&w=1000&c=sc&poi=face&q=70'
+
+    },
+    {
+        songName: 'In Bloom',
+        artist: 'Nirvana',
+        likeCount: 0,
+        playsCount: 0,
+        repostCount: 0,
+        albumArt: 'https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Fewedit.files.wordpress.com%2F2016%2F09%2F000125503.jpg%3Fw%3D720&w=1000&c=sc&poi=face&q=70'
+
+    },
+    {
+        
+        songName: 'Love Buzz',
+        artist: 'Nirvana',
+        likeCount: 0,
+        playsCount: 0,
+        repostCount: 0,
+        albumArt: 'https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Fewedit.files.wordpress.com%2F2016%2F09%2F000125503.jpg%3Fw%3D720&w=1000&c=sc&poi=face&q=70'
+
+    },
+    {
+       
+        songName: 'Something in the Way',
+        artist: 'Nirvana',
+        likeCount: 0,
+        playsCount: 0,
+        repostCount: 0,
+        albumArt: 'https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Fewedit.files.wordpress.com%2F2016%2F09%2F000125503.jpg%3Fw%3D720&w=1000&c=sc&poi=face&q=70'
+
+    },
+    {
+       
+        songName: 'Where Did You Sleep Last Night',
+        artist: 'Nirvana',
+        likeCount: 0,
+        playsCount: 0,
+        repostCount: 0,
+        albumArt: 'https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Fewedit.files.wordpress.com%2F2016%2F09%2F000125503.jpg%3Fw%3D720&w=1000&c=sc&poi=face&q=70'
+
+    },
+    {
+        
+        songName: 'Drain You',
+        artist: 'Nirvana',
+        likeCount: 0,
+        playsCount: 0,
+        repostCount: 0,
+        albumArt: 'https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Fewedit.files.wordpress.com%2F2016%2F09%2F000125503.jpg%3Fw%3D720&w=1000&c=sc&poi=face&q=70'
+
+    },
+    {
+        songName: 'Lake of Fire',
+        artist: 'Nirvana',
+        likeCount: 0,
+        playsCount: 0,
+        repostCount: 0,
+        albumArt: 'https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Fewedit.files.wordpress.com%2F2016%2F09%2F000125503.jpg%3Fw%3D720&w=1000&c=sc&poi=face&q=70'
+
+    },
+    {
+        
+        songName: 'Dumb',
+        artist: 'Nirvana',
+        likeCount: 0,
+        playsCount: 0,
+        repostCount: 0,
+        albumArt: 'https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Fewedit.files.wordpress.com%2F2016%2F09%2F000125503.jpg%3Fw%3D720&w=1000&c=sc&poi=face&q=70'
+
+    },
+    {
+       
+        songName: `Smoke Two Joints`,
+        artist: 'Sublime',
+        likeCount: 0,
+        playsCount: 0,
+        repostCount: 0,
+        albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/5/57/Sublime40OztoFreedomalbumcover.jpg/220px-Sublime40OztoFreedomalbumcover.jpg'
+    },
+    {
+       
+        songName: 'Santeria',
+        artist: 'Sublime',
+        likeCount: 0,
+        playsCount: 0,
+        repostCount: 0,
+        albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/5/57/Sublime40OztoFreedomalbumcover.jpg/220px-Sublime40OztoFreedomalbumcover.jpg'
+
+    },
+    {
+        
+        songName: 'Doin Time',
+        artist: 'Sublime',
+        likeCount: 0,
+        playsCount: 0,
+        repostCount: 0,
+        albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/5/57/Sublime40OztoFreedomalbumcover.jpg/220px-Sublime40OztoFreedomalbumcover.jpg'
+
+    },
+    {
+        songName: 'Pawn Shop',
+        artist: 'Sublime',
+        likeCount: 0,
+        playsCount: 0,
+        repostCount: 0,
+        albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/5/57/Sublime40OztoFreedomalbumcover.jpg/220px-Sublime40OztoFreedomalbumcover.jpg'
+
+    },
+    {
+        
+        songName: 'Jailhouse',
+        artist: 'Sublime',
+        likeCount: 0,
+        playsCount: 0,
+        repostCount: 0,
+        albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/5/57/Sublime40OztoFreedomalbumcover.jpg/220px-Sublime40OztoFreedomalbumcover.jpg'
+
+    },
+    {
+       
+        songName: 'Pool Shark',
+        artist: 'Sublime',
+        likeCount: 0,
+        playsCount: 0,
+        repostCount: 0,
+        albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/5/57/Sublime40OztoFreedomalbumcover.jpg/220px-Sublime40OztoFreedomalbumcover.jpg'
+
+    },
+    {
+       
+        songName: `Rivers of Babylon`,
+        artist: 'Sublime',
+        likeCount: 0,
+        playsCount: 0,
+        repostCount: 0,
+        albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/5/57/Sublime40OztoFreedomalbumcover.jpg/220px-Sublime40OztoFreedomalbumcover.jpg'
+
+    },
+    {
+        
+        songName: 'Summertime',
+        artist: 'Sublime',
+        likeCount: 0,
+        playsCount: 0,
+        repostCount: 0,
+        albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/5/57/Sublime40OztoFreedomalbumcover.jpg/220px-Sublime40OztoFreedomalbumcover.jpg'
+
+    },
+    {
+        songName: 'Ebin',
+        artist: 'Sublime',
+        likeCount: 0,
+        playsCount: 0,
+        repostCount: 0,
+        albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/5/57/Sublime40OztoFreedomalbumcover.jpg/220px-Sublime40OztoFreedomalbumcover.jpg'
+
+    },
+    {
+        
+        songName: 'STP',
+        artist: 'Sublime',
+        likeCount: 0,
+        playsCount: 0,
+        repostCount: 0,
+        albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/5/57/Sublime40OztoFreedomalbumcover.jpg/220px-Sublime40OztoFreedomalbumcover.jpg'
+
+    },
+    {
+       
+        songName: 'New Thrash',
+        artist: 'Sublime',
+        likeCount: 0,
+        playsCount: 0,
+        repostCount: 0,
+        albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/5/57/Sublime40OztoFreedomalbumcover.jpg/220px-Sublime40OztoFreedomalbumcover.jpg'
+
+    },
+    {
+       
+        songName: 'Garden Grove',
+        artist: 'Sublime',
+        likeCount: 0,
+        playsCount: 0,
+        repostCount: 0,
+        albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/5/57/Sublime40OztoFreedomalbumcover.jpg/220px-Sublime40OztoFreedomalbumcover.jpg'
+
+    },
+    {
+        
+        songName: 'Scarlet Begonias',
+        artist: 'Sublime',
+        likeCount: 0,
+        playsCount: 0,
+        repostCount: 0,
+        albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/5/57/Sublime40OztoFreedomalbumcover.jpg/220px-Sublime40OztoFreedomalbumcover.jpg'
+    }
 ]
 
 module.exports = { sampleSongs }

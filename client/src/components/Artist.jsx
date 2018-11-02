@@ -12,6 +12,7 @@ const Artist = (props) => (
                     <span className = 'followers-amount'>900k</span>
                     <img className = 'tracks' src = 'tracks.svg' />
                     <span className = 'tracks-amount'>15</span>
+                    <button className = 'follow-button'>Follow</button>
                 </div>
             </div>
         </div>

@@ -43,7 +43,7 @@ class LRSBar extends React.Component {
     currentSong () { 
         axios.get('/api')
         .then(res => {
-        const index = Math.floor(Math.random() * 49) + 1
+        const index = Math.floor(Math.random() * 100) + 1
         const song = res.data[index]
         this.setState({ 
             currentSong: song,

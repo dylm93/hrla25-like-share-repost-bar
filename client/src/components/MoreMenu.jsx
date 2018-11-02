@@ -19,8 +19,7 @@ class MoreMenu extends Component {
   showMenu(event) {
     event.preventDefault();
     this.setState({ 
-        showMenu: true,
-        bgMoreColor: '#ff5500'
+        showMenu: true
     }, () => {
       document.addEventListener('click', this.closeMenu);
     });
@@ -39,9 +38,15 @@ class MoreMenu extends Component {
   }
 
   onMoreHover () {
+    if (this.state.showMenu === true) {
+      this.setState ({
+        bgMoreColor: '#ff5500'
+      })
+    } else {
     this.setState ({
       bgMoreColor: '#BDBDBD'
     })
+  }
   }
 
   onMoreLeave () {
@@ -65,11 +70,12 @@ class MoreMenu extends Component {
                 className="menu"
                 ref={(element) => {
                   this.dropdownMenu = element;
-                }}
-              >
-                <button className = 'nextUp'> Add to Next up </button>
-                <button className = 'addToPlaylist'> Add to playlist </button>
-                <button className = 'station'> Station </button>
+                }}>
+               <div className = 'more-menu-buttons'>
+                  <button className = 'nextUp'> <img className = 'more-button-images' src = 'add-to-nextup.svg'/> Add to Next up </button>
+                  <button className = 'addToPlaylist'> <img className = 'more-button-images' src = 'add-to-playlist.svg'/> Add to playlist </button>
+                  <button className = 'station'> <img className = 'more-station-image' src = 'station.svg'/> Station </button>
+                </div>
               </div>
             )
             : (

@@ -16,9 +16,7 @@ export default class Share extends Component {
             shareClicked: true,
             bgShareColor: '#ff5500',
             bgEmbedColor: 'black',
-            bgMessageColor: 'black',
-            width: '525',
-            height: '425'
+            bgMessageColor: 'black'
         }
         this.onShareClick = this.onShareClick.bind(this)
         this.onMessageClick = this.onMessageClick.bind(this)
@@ -32,8 +30,7 @@ export default class Share extends Component {
           showEmbedComponent: false,
           bgShareColor: '#ff5500',
           bgEmbedColor: 'black',
-          bgMessageColor: 'black',
-          height: '425'
+          bgMessageColor: 'black'
         });
         console.log(this.state.height)
 
@@ -46,8 +43,8 @@ export default class Share extends Component {
           showEmbedComponent: false,
           bgMessageColor: '#ff5500',
           bgShareColor: 'black',
-          bgEmbedColor: 'black',
-          height: '425'
+          bgEmbedColor: 'black'
+         
         });
         console.log(this.state.height)
 
@@ -61,8 +58,8 @@ export default class Share extends Component {
           bgEmbedColor: '#ff5500',
           bgMessageColor: 'black',
           bgShareColor: 'black',
-          bgShareButtonColor: '#e5e5e5',
-          height: '500'
+          bgShareButtonColor: '#e5e5e5'
+         
         });
         console.log(this.state.height, "embed height")
       }
@@ -98,7 +95,7 @@ export default class Share extends Component {
             <div>
                 <button display = 'inline-block' className = 'share-button' style = {{borderColor: this.state.bgShareButtonColor}} onMouseOver = {this.onShareHover.bind(this)} onMouseLeave = {this.onShareLeave.bind(this)} onClick={() => this.openModal()} ><img src = 'https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-share-512.png' width ='16' height = '16'  /></button>
                 
-                <Modal className = 'share-modal' visible={this.state.visible} width={this.state.width} height={this.state.height} effect="fadeInDown" onClickAway={() => this.closeModal()}>
+                <Modal className = 'share-modal' visible={this.state.visible} width='525' height='425' effect="fadeInDown" onClickAway={() => this.closeModal()}>
                     <div className = 'share-embed-message'>
                         <div className = 'sem'>
                             <div className = 'socialmediashare' style={{color : this.state.bgShareColor}} onClick={this.onShareClick}>Share</div>                      
@@ -112,7 +109,7 @@ export default class Share extends Component {
                             }  
 
                         {this.state.showEmbedComponent ?
-                            <Embed /> :
+                            <Embed currentSong = {this.props.currentSong} /> :
                             null
                             }   
                         

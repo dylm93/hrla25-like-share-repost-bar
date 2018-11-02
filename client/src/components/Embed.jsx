@@ -1,26 +1,17 @@
 import React from 'react';
 
-class Embed extends React.Component {
-    constructor (props) {
-        super (props)
+const Embed = (props) => {
+    return (
 
-    // this.state = ({
-    //     bgEmbedColor: 'black',
-    //     embedClicked: true
-    // })
-    // this.toggleEmbedClass = this.toggleEmbedClass.bind(this)
-    }
-
-    render () {
-        return (
             <div className = 'embed-component'>
-            
-                <span><img className = 'albumart' src = 'http://www.flat-e.com/flate5/wp-content/uploads/cover-960x857.jpg'/></span>
-
+                <div className = 'embed-album-art'>
+                    <img className = 'embedalbumart' src = {props.currentSong.albumArt}/>
+                    <img className = 'embedalbumart' src = {props.currentSong.albumArt}/>
+                </div>
 
             </div>
     )
-    }
+    
 }
 
 export default Embed

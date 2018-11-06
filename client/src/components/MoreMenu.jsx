@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Modal from 'react-modal';
 
 class MoreMenu extends Component {
   constructor() {
@@ -70,7 +71,7 @@ class MoreMenu extends Component {
                   this.dropdownMenu = element;
                 }}>
                <div className = 'more-menu-buttons'>
-                  <button className = 'nextUp'> <img className = 'more-button-images' src = 'add-to-nextup.svg'/> Add to Next up </button>
+                  <button className = 'nextUp' onNextUp = {this.onNextUp}> <img className = 'more-button-images' src = 'add-to-nextup.svg'/> Add to Next up </button>
                   <button className = 'addToPlaylist'> <img className = 'more-button-images' src = 'add-to-playlist.svg'/> Add to playlist </button>
                   <button className = 'station'> <img className = 'more-station-image' src = 'station.svg'/> Station </button>
                 </div>

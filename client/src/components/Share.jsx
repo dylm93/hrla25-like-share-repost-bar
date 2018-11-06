@@ -13,7 +13,8 @@ export default class Share extends Component {
             showSocialMediaComponent: true,
             showMessageComponent: false,
             showEmbedComponent: false,
-            shareClicked: true
+            shareClicked: true,
+         
         }
         this.onShareClick = this.onShareClick.bind(this)
         this.onMessageClick = this.onMessageClick.bind(this)
@@ -24,9 +25,9 @@ export default class Share extends Component {
         this.setState({
           showSocialMediaComponent: true, 
           showMessageComponent: false,
-          showEmbedComponent: false
+          showEmbedComponent: false,
+          
         });
-        console.log(this.state.height)
 
       }
 
@@ -34,17 +35,17 @@ export default class Share extends Component {
         this.setState({
           showMessageComponent: true,
           showSocialMediaComponent: false,
-          showEmbedComponent: false
+          showEmbedComponent: false,
+          
         });
-        console.log(this.state.height)
-
       }
 
     onEmbedClick() {
         this.setState({
           showEmbedComponent: true,
           showSocialMediaComponent: false,
-          showMessageComponent: false
+          showMessageComponent: false,
+          
         });
       }
     
@@ -60,26 +61,14 @@ export default class Share extends Component {
             visible : false
         });
     }
-
-    onShareHover () {
-        this.setState ({
-            bgShareButtonColor: '#B5B5B5'
-        })
-    }
-
-    onShareLeave () {
-        this.setState ({
-            bgShareButtonColor: '#e5e5e5'
-        })
-    }
     
 
     render() {
         return (
             <div>
-                <button display = 'inline-block' className = 'share-button' style = {{borderColor: this.state.bgShareButtonColor}} onMouseOver = {this.onShareHover.bind(this)} onMouseLeave = {this.onShareLeave.bind(this)} onClick={() => this.openModal()} ><img src = 'https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-share-512.png' width ='16' height = '16'  /></button>
+                <button display = 'inline-block' className = 'share-button' style = {{borderColor: this.state.bgShareButtonColor}} onClick={() => this.openModal()} ><img src = 'https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-share-512.png' width ='16' height = '16'  /></button>
                 
-                <Modal className = 'share-modal' visible={this.state.visible} width='525' height='425' effect="fadeInDown" onClickAway={() => this.closeModal()}>
+                <Modal visible={this.state.visible} width= '525' height= '425' effect="fadeInDown" onClickAway={() => this.closeModal()}>
                     <div className = 'share-embed-message'>
                         <div className = 'sem'>
                             <div className={this.state.showSocialMediaComponent ? 'socialmediashareclicked': 'socialmediashare'} onClick={this.onShareClick}>Share</div>                      

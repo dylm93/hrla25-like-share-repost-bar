@@ -13,8 +13,6 @@ class MoreMenu extends Component {
     this.showMenu = this.showMenu.bind(this);
     this.closeMenu = this.closeMenu.bind(this);
   }
-
-
   
   showMenu(event) {
     event.preventDefault();
@@ -76,11 +74,7 @@ class MoreMenu extends Component {
                   <button className = 'addToPlaylist'> <img className = 'more-button-images' src = 'add-to-playlist.svg'/> Add to playlist </button>
                   <button className = 'station'> <img className = 'more-station-image' src = 'station.svg'/> Station </button>
                 </div>
-              </div>
-            )
-            : (
-              null
-            )
+              </div>) : ( null )
         }
         </span>
       </div>

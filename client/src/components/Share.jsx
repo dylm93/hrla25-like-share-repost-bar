@@ -104,7 +104,7 @@ export default class Share extends Component {
                         </div>
 
                         {this.state.showSocialMediaComponent ?
-                            <SocialMediaShare /> :
+                            <SocialMediaShare currentSong = {this.props.currentSong}/> :
                             null
                             }  
 

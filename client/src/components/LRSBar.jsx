@@ -50,9 +50,7 @@ class LRSBar extends React.Component {
             likeCount: song['likeCount'],
             repostCount: song['repostCount'],
          });
-         console.log(this.state.artistName)
       })
-      console.log('likecount', this.state.currentSong['likeCount'])
     }
 
 
@@ -177,13 +175,13 @@ class LRSBar extends React.Component {
 
     render () {
         return (
-            <div>
+            <div className = 'entire-component'>
 
                 <div  className= 'container'>
                     <button className = 'like-button' style={{borderColor:this.state.bgLikeColor}} onMouseOver={this.onLikeHover.bind(this)} onMouseLeave={this.onLikeLeave.bind(this)} onClick ={this.toggleLikeClass} id = 'like-button' ><img style={{color:this.state.bgLikeColor}} src='https://cdn2.iconfinder.com/data/icons/flat-ui-icons-24-px/24/heart-24-512.png' width="12" height="12"/></button>
                     <button className = 'repost-button' style={{borderColor:this.state.bgRepostColor}} onMouseOver={this.onRepostHover.bind(this)} onMouseLeave={this.onRepostLeave.bind(this)} onClick ={this.toggleRepostClass} id = 'repost-button'><img src='https://cdn0.iconfinder.com/data/icons/zondicons/20/repost-512.png' width="15" height="15"/></button>
                     <span> <Share currentSong = {this.state.currentSong} /> </span>
-                    <span className = 'more' ><MoreMenu/> </span>
+                    <span className = 'more' ><MoreMenu currentSong = {this.state.currentSong} /> </span>
                 </div>
 
                 <div className= 'counts'>

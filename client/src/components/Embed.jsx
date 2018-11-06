@@ -29,9 +29,9 @@ class Embed extends React.Component {
         return (
             <div className = 'embed-component'>
                 <div className = 'embed-album-art'>
-                    <div>
+                    <div onClick={this.toggleClass}>
                         <img  className={this.state.active ? 'embedalbumartclicked1': 'embedalbumart1'} 
-                            onClick={this.toggleClass} src = {this.props.currentSong.albumArt}/>
+                             src = {this.props.currentSong.albumArt}/>
                         <img className = 'soundcloud-wave' src = 'http://mediad.publicbroadcasting.net/p/wkms/files/201701/sound-1781570_960_720.png'/>
                     </div>
                     <div>
@@ -51,6 +51,13 @@ class Embed extends React.Component {
                             <div className = 'colorbox3'></div>
                             <div className = 'colorbox4'></div>
                             <input className = 'colorinput'></input> 
+                            <img className = 'color-gradient' src = 'https://a-v2.sndcdn.com/assets/images/widgets/colors-0c8fa81.png'></img>
+                        </div>
+                        
+                        <div className = 'embed-checkboxes'>
+                                <div><input type = 'checkbox' className = 'checkbox'></input> </div>
+                                <div><input type = 'checkbox' className = 'checkbox'></input> </div>
+                                <div><input type = 'checkbox' className = 'checkbox'></input> </div>
                         </div>
                     </div>
                 </div>

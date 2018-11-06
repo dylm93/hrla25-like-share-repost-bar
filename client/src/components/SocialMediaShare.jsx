@@ -5,9 +5,21 @@ class SocialMediaShare extends React.Component {
         super (props)
 
     this.state = ({
+        soundcloudLink: ''
     })
-    
     }
+
+    componentDidMount () {
+        this.onChange()
+    }
+
+    onChange () {
+        
+        this.setState ({
+            soundcloudLink: `https://soundcloud.com/${this.props.currentSong.artist.toLowerCase().split(' ').join('')}/${this.props.currentSong.songName.toLowerCase().split(' ').join('')}`
+        })
+    }
+
 
    
 
@@ -17,7 +29,12 @@ class SocialMediaShare extends React.Component {
 
                 <h1 className = 'share-title'>Share</h1>
                 <div className = 'embeddiv'>
-                    <img className = 'embedplayer' src = 'mobamba.png'/>
+                    <img className = 'share-album-art' src = {this.props.currentSong.albumArt}/>
+                    <img className = 'play-button' src = 'https://s3-us-west-1.amazonaws.com/yongsoobucket/play.png'/>
+                    <span className = 'share-artist'>{this.props.currentSong.artist}</span>
+                    <span className = 'share-song-title'>{this.props.currentSong.songName}</span>
+                    <img className = 'share-wave' src = 'share-wave.png' />
+                    <a className = 'share-release-date'>20 years ago</a>
                 </div>
                 <div className = 'share-element'>
                     <div className = 'sm'>
@@ -32,11 +49,11 @@ class SocialMediaShare extends React.Component {
                 </div>
                 <div className = 'share-link'>
                     <div className = 'soundcloud-link'>
-                            <input className = 'input'></input>
+                            <input className = 'input' value = {this.state.soundcloudLink} onChange = {this.onChange}></input>
                     </div>
                         <input type = 'checkbox' className = 'checkbox'></input> 
                         <a className = 'at'>at</a>
-                        <input className = 'input-time'></input>
+                        <input className = 'input-time' defaultValue = '0:00'></input>
                 </div>
 
                 

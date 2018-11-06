@@ -6,19 +6,29 @@ const Artist = (props) => (
         <img className = 'artist-art' src = {props.currentSong.albumArt} />
             <div className = 'artist-name-star'>
                 <div className = 'artist-name'> {props.currentSong.artist} 
-                <img className = 'artist-star' src = 'https://wiki.sabayon.org/images/2/2e/Star.png' />
-                <div>
-                    <img className = 'followers' src = 'followers.svg' />
-                    <span className = 'followers-amount'>900k</span>
-                    <img className = 'tracks' src = 'tracks.svg' />
-                    <span className = 'tracks-amount'>15</span>
-                    <button className = 'follow-button'>Follow</button>
+                    <img className = 'artist-star' src = 'https://wiki.sabayon.org/images/2/2e/Star.png' />
+                    <div>
+                        <img className = 'followers' src = 'followers.svg' />
+                        <span className = 'followers-amount'>900k</span>
+                        <img className = 'tracks' src = 'tracks.svg' />
+                        <span className = 'tracks-amount'>15</span>
+                        <button className = 'follow-button'>Follow</button>
+                    </div>
                 </div>
             </div>
-        </div>
+        <span className = 'release-info' >
+            <div> Follow @
+                <a href= '' >{props.currentSong.artist.toLowerCase().split(' ').join('')}</a>
+            </div>
+            <div>
+                <a href=''>{`facebook.com/${props.currentSong.artist.split(' ').join('')}`}</a>
+            </div>
+            <a>Email: </a>
+            <a href='' >{`${props.currentSong.artist.toLowerCase().split(' ').join('')}@gmail.com`}</a>
+        </span>
     </div>
                 
 )
     
 
-export default Artist
+export default Artist;

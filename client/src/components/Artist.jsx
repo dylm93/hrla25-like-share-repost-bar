@@ -17,13 +17,13 @@ const Artist = (props) => (
                 </div>
             </div>
         <span className = 'release-info' >
-            <div> Follow @
+            <div> Follow: @
                 <a href= '' >{props.currentSong.artist.toLowerCase().split(' ').join('')}</a>
             </div>
             <div>
                 <a href=''>{`facebook.com/${props.currentSong.artist.split(' ').join('')}`}</a>
             </div>
-            <a>Email: </a>
+            <a>Inquiries: </a>
             <a href='' >{`${props.currentSong.artist.toLowerCase().split(' ').join('')}@gmail.com`}</a>
         </span>
     </div>

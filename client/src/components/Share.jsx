@@ -13,10 +13,7 @@ export default class Share extends Component {
             showSocialMediaComponent: true,
             showMessageComponent: false,
             showEmbedComponent: false,
-            shareClicked: true,
-            bgShareColor: '#ff5500',
-            bgEmbedColor: 'black',
-            bgMessageColor: 'black'
+            shareClicked: true
         }
         this.onShareClick = this.onShareClick.bind(this)
         this.onMessageClick = this.onMessageClick.bind(this)
@@ -27,10 +24,7 @@ export default class Share extends Component {
         this.setState({
           showSocialMediaComponent: true, 
           showMessageComponent: false,
-          showEmbedComponent: false,
-          bgShareColor: '#ff5500',
-          bgEmbedColor: 'black',
-          bgMessageColor: 'black'
+          showEmbedComponent: false
         });
         console.log(this.state.height)
 
@@ -40,11 +34,7 @@ export default class Share extends Component {
         this.setState({
           showMessageComponent: true,
           showSocialMediaComponent: false,
-          showEmbedComponent: false,
-          bgMessageColor: '#ff5500',
-          bgShareColor: 'black',
-          bgEmbedColor: 'black'
-         
+          showEmbedComponent: false
         });
         console.log(this.state.height)
 
@@ -54,14 +44,8 @@ export default class Share extends Component {
         this.setState({
           showEmbedComponent: true,
           showSocialMediaComponent: false,
-          showMessageComponent: false,
-          bgEmbedColor: '#ff5500',
-          bgMessageColor: 'black',
-          bgShareColor: 'black',
-          bgShareButtonColor: '#e5e5e5'
-         
+          showMessageComponent: false
         });
-        console.log(this.state.height, "embed height")
       }
     
 
@@ -98,9 +82,9 @@ export default class Share extends Component {
                 <Modal className = 'share-modal' visible={this.state.visible} width='525' height='425' effect="fadeInDown" onClickAway={() => this.closeModal()}>
                     <div className = 'share-embed-message'>
                         <div className = 'sem'>
-                            <div className = 'socialmediashare' style={{color : this.state.bgShareColor}} onClick={this.onShareClick}>Share</div>                      
-                            <div className = 'embed' style={{color :this.state.bgEmbedColor}} onClick={this.onEmbedClick}> Embed </div>
-                            <div className = 'message' style={{color :this.state.bgMessageColor}} onClick={this.onMessageClick}>Message</div>
+                            <div className={this.state.showSocialMediaComponent ? 'socialmediashareclicked': 'socialmediashare'} onClick={this.onShareClick}>Share</div>                      
+                            <div className = {this.state.showEmbedComponent ? 'embedclicked': 'embed'} onClick={this.onEmbedClick}> Embed </div>
+                            <div className = {this.state.showMessageComponent ? 'messageclicked': 'message'} onClick={this.onMessageClick}>Message</div>
                         </div>
 
                         {this.state.showSocialMediaComponent ?
@@ -114,7 +98,7 @@ export default class Share extends Component {
                             }   
                         
                         {this.state.showMessageComponent ?
-                            <Message /> :
+                            <Message currentSong = {this.props.currentSong} /> :
                             null
                             }   
                             

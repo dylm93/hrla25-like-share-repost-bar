@@ -6,7 +6,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://images-na.ssl-images-amazon.com/images/I/91lTMM49zKL._SY355_.jpg',
-        releasedBy: 'Rhino Atlantic'
+        releasedBy: '50 years ago'
     },
     {
         
@@ -16,7 +16,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://consequenceofsound.files.wordpress.com/2014/06/ramones-1976.jpg?quality=80&w=640',
-        releasedBy: 'Sire Records'
+        releasedBy: '45 years ago'
     },
     {
        
@@ -26,7 +26,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'http://images.gibson.com/Lifestyle/2016/Rolling-Stones_Rocks-Off_600.jpg',
-        releasedBy: 'Atlantic Records'
+        releasedBy: '50 years ago'
     },
     {
        
@@ -36,7 +36,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'http://altamont.pt/wp-content/uploads/2014/03/MorrisonHotel.jpg',
-        releasedBy: 'Elektra Records'
+        releasedBy: '50 years ago'
 
     },
     {
@@ -47,7 +47,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://img.discogs.com/kErYBMumf2FbhOWvRTHFRqRE8u8=/fit-in/600x605/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-371917-1393573750-9393.jpeg.jpg',
-        releasedBy: 'Fantasy Records'
+        releasedBy: '50 years ago'
     },
     {
         songName: 'Angie',
@@ -56,7 +56,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'http://images.gibson.com/Lifestyle/2016/Rolling-Stones_Rocks-Off_600.jpg',
-        releasedBy: 'Atlantic Records'
+        releasedBy: '50 years ago'
 
     },
     {
@@ -67,7 +67,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'http://images.gibson.com/Lifestyle/2016/Rolling-Stones_Rocks-Off_600.jpg',
-        releasedBy: 'Atlantic Records'
+        releasedBy: '50 years ago'
 
     },
     {
@@ -78,7 +78,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'http://images.gibson.com/Lifestyle/2016/Rolling-Stones_Rocks-Off_600.jpg',
-        releasedBy: 'Atlantic Records'
+        releasedBy: '50 years ago'
 
     },
     {
@@ -89,8 +89,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'http://images.gibson.com/Lifestyle/2016/Rolling-Stones_Rocks-Off_600.jpg',
-        releasedBy: 'Atlantic Records'
-
+        releasedBy: '50 years ago'
     },
     {
         
@@ -100,7 +99,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'http://images.gibson.com/Lifestyle/2016/Rolling-Stones_Rocks-Off_600.jpg',
-        releasedBy: 'Atlantic Records'
+        releasedBy: '50 years ago'
 
     },
     {
@@ -110,7 +109,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'http://images.gibson.com/Lifestyle/2016/Rolling-Stones_Rocks-Off_600.jpg',
-        releasedBy: 'Atlantic Records'
+        releasedBy: '50 years ago'
 
     },
     {
@@ -121,7 +120,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'http://images.gibson.com/Lifestyle/2016/Rolling-Stones_Rocks-Off_600.jpg',
-        releasedBy: 'Atlantic Records'
+        releasedBy: '50 years ago'
 
     },
     {
@@ -132,7 +131,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'http://images.gibson.com/Lifestyle/2016/Rolling-Stones_Rocks-Off_600.jpg',
-        releasedBy: 'Atlantic Records'
+        releasedBy: '50 years ago'
 
     },
     {
@@ -143,7 +142,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'http://images.gibson.com/Lifestyle/2016/Rolling-Stones_Rocks-Off_600.jpg',
-        releasedBy: 'Atlantic Records'
+        releasedBy: '50 years ago'
 
     },
     {
@@ -154,7 +153,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'http://images.gibson.com/Lifestyle/2016/Rolling-Stones_Rocks-Off_600.jpg',
-        releasedBy: 'Atlantic Records'
+        releasedBy: '50 years ago'
 
     },
     {
@@ -164,7 +163,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'http://images.gibson.com/Lifestyle/2016/Rolling-Stones_Rocks-Off_600.jpg',
-        releasedBy: 'Atlantic Records'
+        releasedBy: '50 years ago'
 
     },
     {
@@ -175,7 +174,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'http://images.gibson.com/Lifestyle/2016/Rolling-Stones_Rocks-Off_600.jpg',
-        releasedBy: 'Atlantic Records'
+        releasedBy: '50 years ago'
 
     },
     {
@@ -186,7 +185,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'http://images.gibson.com/Lifestyle/2016/Rolling-Stones_Rocks-Off_600.jpg',
-        releasedBy: 'Atlantic Records'
+        releasedBy: '50 years ago'
 
     },
     {
@@ -197,7 +196,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'http://images.gibson.com/Lifestyle/2016/Rolling-Stones_Rocks-Off_600.jpg',
-        releasedBy: 'Atlantic Records'
+        releasedBy: '50 years ago'
 
     },
     {
@@ -208,7 +207,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'http://altamont.pt/wp-content/uploads/2014/03/MorrisonHotel.jpg',
-        releasedBy: 'Elektra Records'
+        releasedBy: '50 years ago'
 
 
     },
@@ -219,7 +218,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'http://altamont.pt/wp-content/uploads/2014/03/MorrisonHotel.jpg',
-        releasedBy: 'Elektra Records'
+        releasedBy: '50 years ago'
 
 
     },
@@ -231,7 +230,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'http://altamont.pt/wp-content/uploads/2014/03/MorrisonHotel.jpg',
-        releasedBy: 'Elektra Records'
+        releasedBy: '50 years ago'
 
 
     },
@@ -243,7 +242,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'http://altamont.pt/wp-content/uploads/2014/03/MorrisonHotel.jpg',
-        releasedBy: 'Elektra Records'
+        releasedBy: '50 years ago'
 
 
     },
@@ -255,7 +254,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'http://altamont.pt/wp-content/uploads/2014/03/MorrisonHotel.jpg',
-        releasedBy: 'Elektra Records'
+        releasedBy: '50 years ago'
 
 
     },
@@ -267,7 +266,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'http://altamont.pt/wp-content/uploads/2014/03/MorrisonHotel.jpg',
-        releasedBy: 'Elektra Records'
+        releasedBy: '50 years ago'
 
 
     },
@@ -278,7 +277,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://images-na.ssl-images-amazon.com/images/I/91lTMM49zKL._SY355_.jpg',
-        releasedBy: 'Rhino Atlantic'
+        releasedBy: '50 years ago'
     },
     {
         
@@ -288,7 +287,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://images-na.ssl-images-amazon.com/images/I/91lTMM49zKL._SY355_.jpg',
-        releasedBy: 'Rhino Atlantic'
+        releasedBy: '50 years ago'
 
 
     },
@@ -300,7 +299,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,        
         albumArt: 'https://images-na.ssl-images-amazon.com/images/I/91lTMM49zKL._SY355_.jpg',
-        releasedBy: 'Rhino Atlantic'
+        releasedBy: '50 years ago'
 
     },
     {
@@ -311,7 +310,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://images-na.ssl-images-amazon.com/images/I/91lTMM49zKL._SY355_.jpg',
-        releasedBy: 'Rhino Atlantic'
+        releasedBy: '50 years ago'
 
 
     },
@@ -323,7 +322,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://images-na.ssl-images-amazon.com/images/I/91lTMM49zKL._SY355_.jpg',
-        releasedBy: 'Rhino Atlantic'
+        releasedBy: '50 years ago'
 
 
     },
@@ -334,7 +333,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://images-na.ssl-images-amazon.com/images/I/91lTMM49zKL._SY355_.jpg',
-        releasedBy: 'Rhino Atlantic'
+        releasedBy: '50 years ago'
 
 
     },
@@ -346,7 +345,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://images-na.ssl-images-amazon.com/images/I/91lTMM49zKL._SY355_.jpg',
-        releasedBy: 'Rhino Atlantic'
+        releasedBy: '50 years ago'
 
 
     },
@@ -358,7 +357,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://images-na.ssl-images-amazon.com/images/I/91lTMM49zKL._SY355_.jpg',
-        releasedBy: 'Rhino Atlantic'
+        releasedBy: '50 years ago'
 
 
     },
@@ -370,7 +369,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://images-na.ssl-images-amazon.com/images/I/91lTMM49zKL._SY355_.jpg',
-        releasedBy: 'Rhino Atlantic'
+        releasedBy: '50 years ago'
 
 
     },
@@ -382,7 +381,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://images-na.ssl-images-amazon.com/images/I/91lTMM49zKL._SY355_.jpg',
-        releasedBy: 'Rhino Atlantic'
+        releasedBy: '50 years ago'
 
 
     },
@@ -393,7 +392,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://images-na.ssl-images-amazon.com/images/I/91lTMM49zKL._SY355_.jpg',
-        releasedBy: 'Rhino Atlantic'
+        releasedBy: '50 years ago'
 
 
     },
@@ -405,7 +404,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://images-na.ssl-images-amazon.com/images/I/91lTMM49zKL._SY355_.jpg',
-        releasedBy: 'Rhino Atlantic'
+        releasedBy: '50 years ago'
 
 
     },
@@ -417,7 +416,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Whosnext.jpg/220px-Whosnext.jpg',
-        releasedBy: 'Brunswick Records'
+        releasedBy: '50 years ago'
 
     },
     {
@@ -428,7 +427,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Whosnext.jpg/220px-Whosnext.jpg',
-        releasedBy: 'Brunswick Records'
+        releasedBy: '50 years ago'
 
 
     },
@@ -440,7 +439,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Whosnext.jpg/220px-Whosnext.jpg',
-        releasedBy: 'Brunswick Records'
+        releasedBy: '50 years ago'
 
 
     },
@@ -451,8 +450,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Whosnext.jpg/220px-Whosnext.jpg',
-        releasedBy: 'Brunswick Records'
-
+        releasedBy: '50 years ago'
 
     },
     {
@@ -463,7 +461,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Whosnext.jpg/220px-Whosnext.jpg',
-        releasedBy: 'Brunswick Records'
+        releasedBy: '50 years ago'
 
 
     },
@@ -475,7 +473,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Whosnext.jpg/220px-Whosnext.jpg',
-        releasedBy: 'Brunswick Records'
+        releasedBy: '50 years ago'
 
 
     },
@@ -487,7 +485,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Whosnext.jpg/220px-Whosnext.jpg',
-        releasedBy: 'Brunswick Records'
+        releasedBy: '50 years ago'
 
 
     },
@@ -499,7 +497,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Whosnext.jpg/220px-Whosnext.jpg',
-        releasedBy: 'Brunswick Records'
+        releasedBy: '50 years ago'
 
 
     },
@@ -510,7 +508,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Whosnext.jpg/220px-Whosnext.jpg',
-        releasedBy: 'Brunswick Records'
+        releasedBy: '50 years ago'
 
 
     },
@@ -522,7 +520,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Whosnext.jpg/220px-Whosnext.jpg',
-        releasedBy: 'Brunswick Records'
+        releasedBy: '50 years ago'
 
 
     },
@@ -534,7 +532,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Whosnext.jpg/220px-Whosnext.jpg',
-        releasedBy: 'Brunswick Records'
+        releasedBy: '50 years ago'
 
 
     },
@@ -546,7 +544,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Whosnext.jpg/220px-Whosnext.jpg',
-        releasedBy: 'Brunswick Records'
+        releasedBy: '50 years ago'
 
 
     },
@@ -558,7 +556,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Whosnext.jpg/220px-Whosnext.jpg',
-        releasedBy: 'Brunswick Records'
+        releasedBy: '50 years ago'
 
     },
     {
@@ -568,7 +566,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://nyoobserver.files.wordpress.com/2017/03/11312842_1038215196188532_6473040481384645897_o.jpg?quality=80&w=594',
-        releasedBy: 'Bad Boy Records'
+        releasedBy: '20 years ago'
     },
     {
         
@@ -578,7 +576,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://nyoobserver.files.wordpress.com/2017/03/11312842_1038215196188532_6473040481384645897_o.jpg?quality=80&w=594',
-        releasedBy: 'Bad Boy Records'
+        releasedBy: '20 years ago'
 
     },
     {
@@ -589,7 +587,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://nyoobserver.files.wordpress.com/2017/03/11312842_1038215196188532_6473040481384645897_o.jpg?quality=80&w=594',
-        releasedBy: 'Bad Boy Records'
+        releasedBy: '20 years ago'
 
     },
     {
@@ -600,7 +598,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://nyoobserver.files.wordpress.com/2017/03/11312842_1038215196188532_6473040481384645897_o.jpg?quality=80&w=594',
-        releasedBy: 'Bad Boy Records'
+        releasedBy: '20 years ago'
 
     },
     {
@@ -611,7 +609,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://nyoobserver.files.wordpress.com/2017/03/11312842_1038215196188532_6473040481384645897_o.jpg?quality=80&w=594',
-        releasedBy: 'Bad Boy Records'
+        releasedBy: '20 years ago'
 
     },
     {
@@ -621,7 +619,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://nyoobserver.files.wordpress.com/2017/03/11312842_1038215196188532_6473040481384645897_o.jpg?quality=80&w=594',
-        releasedBy: 'Bad Boy Records'
+        releasedBy: '20 years ago'
 
 
     },
@@ -633,7 +631,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://nyoobserver.files.wordpress.com/2017/03/11312842_1038215196188532_6473040481384645897_o.jpg?quality=80&w=594',
-        releasedBy: 'Bad Boy Records'
+        releasedBy: '20 years ago'
 
 
     },
@@ -645,7 +643,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://nyoobserver.files.wordpress.com/2017/03/11312842_1038215196188532_6473040481384645897_o.jpg?quality=80&w=594',
-        releasedBy: 'Bad Boy Records'
+        releasedBy: '20 years ago'
 
 
     },
@@ -657,7 +655,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://nyoobserver.files.wordpress.com/2017/03/11312842_1038215196188532_6473040481384645897_o.jpg?quality=80&w=594',
-        releasedBy: 'Bad Boy Records'
+        releasedBy: '20 years ago'
 
     },
     {
@@ -668,7 +666,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://nyoobserver.files.wordpress.com/2017/03/11312842_1038215196188532_6473040481384645897_o.jpg?quality=80&w=594',
-        releasedBy: 'Bad Boy Records'
+        releasedBy: '20 years ago'
 
 
     },
@@ -679,7 +677,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/2PacGreatestHits.jpg/220px-2PacGreatestHits.jpg',
-        releasedBy: 'Death Row Records'
+        releasedBy: '20 years ago'
     },
     {
         
@@ -689,7 +687,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/2PacGreatestHits.jpg/220px-2PacGreatestHits.jpg',
-        releasedBy: 'Death Row Records'
+        releasedBy: '20 years ago'
 
 
     },
@@ -701,7 +699,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/2PacGreatestHits.jpg/220px-2PacGreatestHits.jpg',
-        releasedBy: 'Death Row Records'
+        releasedBy: '20 years ago'
 
 
     },
@@ -713,7 +711,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/2PacGreatestHits.jpg/220px-2PacGreatestHits.jpg',
-        releasedBy: 'Death Row Records'
+        releasedBy: '20 years ago'
 
 
     },
@@ -725,7 +723,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/2PacGreatestHits.jpg/220px-2PacGreatestHits.jpg',
-        releasedBy: 'Death Row Records'
+        releasedBy: '20 years ago'
 
 
     },
@@ -736,7 +734,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/2PacGreatestHits.jpg/220px-2PacGreatestHits.jpg',
-        releasedBy: 'Death Row Records'
+        releasedBy: '20 years ago'
 
 
     },
@@ -748,7 +746,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/2PacGreatestHits.jpg/220px-2PacGreatestHits.jpg',
-        releasedBy: 'Death Row Records'
+        releasedBy: '20 years ago'
 
 
     },
@@ -760,7 +758,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/2PacGreatestHits.jpg/220px-2PacGreatestHits.jpg',
-        releasedBy: 'Death Row Records'
+        releasedBy: '20 years ago'
 
 
     },
@@ -772,7 +770,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/2PacGreatestHits.jpg/220px-2PacGreatestHits.jpg',
-        releasedBy: 'Death Row Records'
+        releasedBy: '20 years ago'
 
 
     },
@@ -784,7 +782,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/2PacGreatestHits.jpg/220px-2PacGreatestHits.jpg',
-        releasedBy: 'Death Row Records'
+        releasedBy: '20 years ago'
 
 
     },
@@ -795,7 +793,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/2PacGreatestHits.jpg/220px-2PacGreatestHits.jpg',
-        releasedBy: 'Death Row Records'
+        releasedBy: '20 years ago'
 
 
     },
@@ -807,7 +805,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/2PacGreatestHits.jpg/220px-2PacGreatestHits.jpg',
-        releasedBy: 'Death Row Records'
+        releasedBy: '20 years ago'
 
 
     },
@@ -818,8 +816,8 @@ const sampleSongs = [
         likeCount: 0,
         playsCount: 0,
         repostCount: 0,
-        albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/2PacGreatestHits.jpg/220px-2PacGreatestHits.jpg',        releasedBy: 'Death Row Records'
-
+        albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/2PacGreatestHits.jpg/220px-2PacGreatestHits.jpg',    
+        releasedBy: '20 years ago'
 
     },
     {
@@ -830,7 +828,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/2PacGreatestHits.jpg/220px-2PacGreatestHits.jpg',
-        releasedBy: 'Death Row Records'
+        releasedBy: '20 years ago'
 
 
     },
@@ -842,7 +840,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/2PacGreatestHits.jpg/220px-2PacGreatestHits.jpg',
-        releasedBy: 'Death Row Records'
+        releasedBy: '20 years ago'
 
 
     },
@@ -853,7 +851,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Fewedit.files.wordpress.com%2F2016%2F09%2F000125503.jpg%3Fw%3D720&w=1000&c=sc&poi=face&q=70',
-        releasedBy: 'Island Records'
+        releasedBy: '30 years ago'
     },
     {
         
@@ -863,7 +861,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Fewedit.files.wordpress.com%2F2016%2F09%2F000125503.jpg%3Fw%3D720&w=1000&c=sc&poi=face&q=70',
-        releasedBy: 'Island Records'
+        releasedBy: '30 years ago'
     },
     {
        
@@ -873,7 +871,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,        
         albumArt: 'https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Fewedit.files.wordpress.com%2F2016%2F09%2F000125503.jpg%3Fw%3D720&w=1000&c=sc&poi=face&q=70',
-        releasedBy: 'Island Records'
+        releasedBy: '30 years ago'
 
     },
     {
@@ -884,7 +882,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Fewedit.files.wordpress.com%2F2016%2F09%2F000125503.jpg%3Fw%3D720&w=1000&c=sc&poi=face&q=70',
-        releasedBy: 'Island Records'
+        releasedBy: '30 years ago'
 
     },
     {
@@ -895,7 +893,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Fewedit.files.wordpress.com%2F2016%2F09%2F000125503.jpg%3Fw%3D720&w=1000&c=sc&poi=face&q=70',
-        releasedBy: 'Island Records'
+        releasedBy: '30 years ago'
 
     },
     {
@@ -905,7 +903,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Fewedit.files.wordpress.com%2F2016%2F09%2F000125503.jpg%3Fw%3D720&w=1000&c=sc&poi=face&q=70',
-        releasedBy: 'Island Records'
+        releasedBy: '30 years ago'
 
     },
     {
@@ -916,7 +914,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Fewedit.files.wordpress.com%2F2016%2F09%2F000125503.jpg%3Fw%3D720&w=1000&c=sc&poi=face&q=70',
-        releasedBy: 'Island Records'
+        releasedBy: '30 years ago'
 
     },
     {
@@ -927,7 +925,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Fewedit.files.wordpress.com%2F2016%2F09%2F000125503.jpg%3Fw%3D720&w=1000&c=sc&poi=face&q=70',
-        releasedBy: 'Island Records'
+        releasedBy: '30 years ago'
 
     },
     {
@@ -938,7 +936,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Fewedit.files.wordpress.com%2F2016%2F09%2F000125503.jpg%3Fw%3D720&w=1000&c=sc&poi=face&q=70',
-        releasedBy: 'Island Records'
+        releasedBy: '30 years ago'
 
     },
     {
@@ -949,7 +947,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Fewedit.files.wordpress.com%2F2016%2F09%2F000125503.jpg%3Fw%3D720&w=1000&c=sc&poi=face&q=70',
-        releasedBy: 'Island Records'
+        releasedBy: '30 years ago'
 
     },
     {
@@ -959,7 +957,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Fewedit.files.wordpress.com%2F2016%2F09%2F000125503.jpg%3Fw%3D720&w=1000&c=sc&poi=face&q=70',
-        releasedBy: 'Island Records'
+        releasedBy: '30 years ago'
 
     },
     {
@@ -970,7 +968,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Fewedit.files.wordpress.com%2F2016%2F09%2F000125503.jpg%3Fw%3D720&w=1000&c=sc&poi=face&q=70',
-        releasedBy: 'Island Records'
+        releasedBy: '30 years ago'
 
     },
     {
@@ -981,7 +979,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/5/57/Sublime40OztoFreedomalbumcover.jpg/220px-Sublime40OztoFreedomalbumcover.jpg',
-        releasedBy: 'Skunk Records'
+        releasedBy: '30 years ago'
     },
     {
        
@@ -991,7 +989,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/5/57/Sublime40OztoFreedomalbumcover.jpg/220px-Sublime40OztoFreedomalbumcover.jpg',
-        releasedBy: 'Skunk Records'
+        releasedBy: '30 years ago'
 
 
     },
@@ -1003,7 +1001,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/5/57/Sublime40OztoFreedomalbumcover.jpg/220px-Sublime40OztoFreedomalbumcover.jpg',
-        releasedBy: 'Skunk Records'
+        releasedBy: '30 years ago'
 
 
     },
@@ -1014,7 +1012,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/5/57/Sublime40OztoFreedomalbumcover.jpg/220px-Sublime40OztoFreedomalbumcover.jpg',
-        releasedBy: 'Skunk Records'
+        releasedBy: '30 years ago'
 
 
     },
@@ -1026,7 +1024,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/5/57/Sublime40OztoFreedomalbumcover.jpg/220px-Sublime40OztoFreedomalbumcover.jpg',
-        releasedBy: 'Skunk Records'
+        releasedBy: '30 years ago'
 
 
     },
@@ -1038,7 +1036,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/5/57/Sublime40OztoFreedomalbumcover.jpg/220px-Sublime40OztoFreedomalbumcover.jpg',
-        releasedBy: 'Skunk Records'
+        releasedBy: '30 years ago'
 
 
     },
@@ -1050,7 +1048,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/5/57/Sublime40OztoFreedomalbumcover.jpg/220px-Sublime40OztoFreedomalbumcover.jpg',
-        releasedBy: 'Skunk Records'
+        releasedBy: '30 years ago'
 
 
     },
@@ -1062,7 +1060,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/5/57/Sublime40OztoFreedomalbumcover.jpg/220px-Sublime40OztoFreedomalbumcover.jpg',
-        releasedBy: 'Skunk Records'
+        releasedBy: '30 years ago'
 
 
     },
@@ -1073,7 +1071,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/5/57/Sublime40OztoFreedomalbumcover.jpg/220px-Sublime40OztoFreedomalbumcover.jpg',
-        releasedBy: 'Skunk Records'
+        releasedBy: '30 years ago'
 
 
     },
@@ -1085,7 +1083,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/5/57/Sublime40OztoFreedomalbumcover.jpg/220px-Sublime40OztoFreedomalbumcover.jpg',
-        releasedBy: 'Skunk Records'
+        releasedBy: '30 years ago'
 
 
     },
@@ -1097,7 +1095,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/5/57/Sublime40OztoFreedomalbumcover.jpg/220px-Sublime40OztoFreedomalbumcover.jpg',
-        releasedBy: 'Skunk Records'
+        releasedBy: '30 years ago'
 
 
     },
@@ -1109,7 +1107,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/5/57/Sublime40OztoFreedomalbumcover.jpg/220px-Sublime40OztoFreedomalbumcover.jpg',
-        releasedBy: 'Skunk Records'
+        releasedBy: '30 years ago'
 
 
     },
@@ -1121,7 +1119,7 @@ const sampleSongs = [
         playsCount: 0,
         repostCount: 0,
         albumArt: 'https://upload.wikimedia.org/wikipedia/en/thumb/5/57/Sublime40OztoFreedomalbumcover.jpg/220px-Sublime40OztoFreedomalbumcover.jpg',
-        releasedBy: 'Skunk Records'
+        releasedBy: '30 years ago'
 
     }
 ]

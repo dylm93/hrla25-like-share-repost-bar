@@ -3,25 +3,7 @@ import React from 'react';
 class SocialMediaShare extends React.Component {
     constructor (props) {
         super (props)
-
-    this.state = ({
-        soundcloudLink: ''
-    })
-    }
-
-    componentDidMount () {
-        this.onChange()
-    }
-
-    onChange () {
-        
-        this.setState ({
-            soundcloudLink: `https://soundcloud.com/${this.props.currentSong.artist.toLowerCase().split(' ').join('')}/${this.props.currentSong.songName.toLowerCase().split(' ').join('')}`
-        })
-    }
-
-
-   
+    }   
 
     render () {
         return (
@@ -34,7 +16,7 @@ class SocialMediaShare extends React.Component {
                     <span className = 'share-artist'>{this.props.currentSong.artist}</span>
                     <span className = 'share-song-title'>{this.props.currentSong.songName}</span>
                     <img className = 'share-wave' src = 'share-wave.png' />
-                    <a className = 'share-release-date'>20 years ago</a>
+                    <a className = 'share-release-date'>{this.props.currentSong.releasedBy}</a>
                 </div>
                 <div className = 'share-element'>
                     <div className = 'sm'>
@@ -49,7 +31,7 @@ class SocialMediaShare extends React.Component {
                 </div>
                 <div className = 'share-link'>
                     <div className = 'soundcloud-link'>
-                            <input className = 'input' value = {this.state.soundcloudLink} onChange = {this.onChange}></input>
+                            <input className = 'input' value = {`https://soundcloud.com/${this.props.currentSong.artist.toLowerCase().split(' ').join('')}/${this.props.currentSong.songName.toLowerCase().split(' ').join('')}`} ></input>
                     </div>
                         <input type = 'checkbox' className = 'checkbox'></input> 
                         <a className = 'at'>at</a>

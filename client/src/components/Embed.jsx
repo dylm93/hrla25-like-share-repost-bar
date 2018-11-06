@@ -41,6 +41,7 @@ class Embed extends React.Component {
                     </div>
                     <h1 className = 'code'>Code</h1>
                     <input className = 'code-input'></input>
+                    <a className = 'wordpress-code' href=''>Wordpress Code</a>
                     <h2 className = 'options'>Options</h2>
                     <div className = 'colorboxes'>
                         <h3 className = 'color'>Color: </h3>
